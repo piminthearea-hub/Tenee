@@ -11,7 +11,7 @@ export default function ConsentModal() {
 
     useEffect(() => {
         // Only trigger the modal on tool routes.
-        const toolRoutes = ["/wizard", "/write-thai", "/legal-claims", "/office-plan"];
+        const toolRoutes = ["/wizard", "/write-thai", "/legal-claims", "/office-plan", "/feedback"];
         const isToolRoute = toolRoutes.some(route => pathname.startsWith(route));
 
         if (isToolRoute) {
