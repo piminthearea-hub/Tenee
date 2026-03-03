@@ -22,6 +22,7 @@ function WizardContent() {
     const { state, reset } = useWizard();
     const [isGenerating, setIsGenerating] = useState(false);
     const [showShareModal, setShowShareModal] = useState(false);
+    const [confirmClear, setConfirmClear] = useState(false);
 
     const handleGenerate = async () => {
         setIsGenerating(true);
@@ -152,27 +153,66 @@ function WizardContent() {
 
             {/* Clear Data */}
             <div style={{ textAlign: "center", marginTop: "4rem" }}>
-                <button
-                    onClick={() => {
-                        if (confirm("Are you sure you want to clear all data and start over?")) {
-                            localStorage.clear();
-                            sessionStorage.clear();
-                            reset();
-                            window.location.reload();
-                        }
-                    }}
-                    style={{
-                        background: "none",
-                        border: "none",
-                        color: "#ef4444",
-                        textDecoration: "underline",
-                        fontSize: "0.85rem",
-                        cursor: "pointer",
-                        opacity: 0.8
-                    }}
-                >
-                    Clear my data
-                </button>
+                {!confirmClear ? (
+                    <button
+                        onClick={() => setConfirmClear(true)}
+                        style={{
+                            background: "none",
+                            border: "none",
+                            color: "#ef4444",
+                            textDecoration: "underline",
+                            fontSize: "0.85rem",
+                            cursor: "pointer",
+                            opacity: 0.8
+                        }}
+                    >
+                        Clear my data
+                    </button>
+                ) : (
+                    <div style={{ display: "inline-flex", flexDirection: "column", gap: "0.5rem", alignItems: "center" }}>
+                        <span style={{ fontSize: "0.85rem", color: "#ef4444", fontWeight: 600 }}>Are you sure?</span>
+                        <div style={{ display: "flex", gap: "1rem" }}>
+                            <button
+                                onClick={() => {
+                                    const consent = localStorage.getItem("tenee_consent_given");
+                                    localStorage.clear();
+                                    sessionStorage.clear();
+                                    if (consent) {
+                                        localStorage.setItem("tenee_consent_given", consent);
+                                    }
+                                    reset();
+                                    window.location.reload();
+                                }}
+                                style={{
+                                    background: "#ef4444",
+                                    border: "none",
+                                    color: "#fff",
+                                    padding: "0.4rem 1rem",
+                                    borderRadius: "4px",
+                                    fontSize: "0.75rem",
+                                    cursor: "pointer",
+                                    fontWeight: 700
+                                }}
+                            >
+                                Yes, Clear Data
+                            </button>
+                            <button
+                                onClick={() => setConfirmClear(false)}
+                                style={{
+                                    background: "rgba(255,255,255,0.1)",
+                                    border: "none",
+                                    color: "#cbd5e1",
+                                    padding: "0.4rem 1rem",
+                                    borderRadius: "4px",
+                                    fontSize: "0.75rem",
+                                    cursor: "pointer"
+                                }}
+                            >
+                                Cancel
+                            </button>
+                        </div>
+                    </div>
+                )}
             </div>
         </div>
     );

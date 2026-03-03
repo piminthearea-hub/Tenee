@@ -21,6 +21,7 @@ function WriteThaiForm() {
     const [tone, setTone] = useState<Tone>("normal");
     const [copied, setCopied] = useState<string | null>(null);
     const [hasGenerated, setHasGenerated] = useState(false);
+    const [confirmClear, setConfirmClear] = useState(false);
 
     // Input fields
     const [applicantName, setApplicantName] = useState("");
@@ -182,27 +183,67 @@ function WriteThaiForm() {
                 </div>
 
                 <div style={{ marginTop: "1.5rem" }}>
-                    <button
-                        onClick={() => {
-                            if (confirm("Are you sure you want to clear all data?")) {
-                                localStorage.clear();
-                                sessionStorage.clear();
-                                window.location.href = '/write-thai'; // navigate to clear queries
-                            }
-                        }}
-                        style={{
-                            background: "rgba(239, 68, 68, 0.1)",
-                            border: "1px solid rgba(239, 68, 68, 0.3)",
-                            color: "#ef4444",
-                            padding: "0.4rem 1rem",
-                            borderRadius: "20px",
-                            fontSize: "0.85rem",
-                            cursor: "pointer",
-                            fontWeight: 600
-                        }}
-                    >
-                        🗑️ Clear my data
-                    </button>
+                    {!confirmClear ? (
+                        <button
+                            onClick={() => setConfirmClear(true)}
+                            style={{
+                                background: "rgba(239, 68, 68, 0.1)",
+                                border: "1px solid rgba(239, 68, 68, 0.3)",
+                                color: "#ef4444",
+                                padding: "0.4rem 1rem",
+                                borderRadius: "20px",
+                                fontSize: "0.85rem",
+                                cursor: "pointer",
+                                fontWeight: 600
+                            }}
+                        >
+                            🗑️ Clear my data
+                        </button>
+                    ) : (
+                        <div style={{ display: "inline-flex", flexDirection: "column", gap: "0.5rem", alignItems: "center" }}>
+                            <span style={{ fontSize: "0.85rem", color: "#ef4444", fontWeight: 600 }}>Are you sure?</span>
+                            <div style={{ display: "flex", gap: "1rem" }}>
+                                <button
+                                    onClick={() => {
+                                        const consent = localStorage.getItem("tenee_consent_given");
+                                        localStorage.clear();
+                                        sessionStorage.clear();
+                                        if (consent) {
+                                            localStorage.setItem("tenee_consent_given", consent);
+                                        }
+                                        window.location.href = '/write-thai';
+                                    }}
+                                    style={{
+                                        background: "#ef4444",
+                                        border: "none",
+                                        color: "#fff",
+                                        padding: "0.4rem 1rem",
+                                        borderRadius: "20px",
+                                        fontSize: "0.85rem",
+                                        cursor: "pointer",
+                                        fontWeight: 600
+                                    }}
+                                >
+                                    Yes, clear it
+                                </button>
+                                <button
+                                    onClick={() => setConfirmClear(false)}
+                                    style={{
+                                        background: "rgba(255,255,255,0.1)",
+                                        border: "none",
+                                        color: "#cbd5e1",
+                                        padding: "0.4rem 1rem",
+                                        borderRadius: "20px",
+                                        fontSize: "0.85rem",
+                                        cursor: "pointer",
+                                        fontWeight: 600
+                                    }}
+                                >
+                                    Cancel
+                                </button>
+                            </div>
+                        </div>
+                    )}
                 </div>
             </div>
 

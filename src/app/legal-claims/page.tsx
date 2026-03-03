@@ -23,23 +23,23 @@ export default function LegalClaimsPage() {
 
     // Outputs visible after facts are entered and consent given
     const [showOutputs, setShowOutputs] = useState(false);
+    const [confirmClear, setConfirmClear] = useState(false);
     const [timeline, setTimeline] = useState<TimelineEvent[]>([
         { id: "1", date: "", description: "", evidence: "" }
     ]);
 
     const CHAR_LIMIT = 800;
 
-    const clearData = () => {
-        if (confirm("Are you sure you want to clear all typed facts and organized data? This cannot be undone.")) {
-            setHasConsent(false);
-            setFacts("");
-            setIssueType("");
-            setLocation("");
-            setIncidentDate("");
-            setSelectedEvidence([]);
-            setShowOutputs(false);
-            setTimeline([{ id: "1", date: "", description: "", evidence: "" }]);
-        }
+    const performClearData = () => {
+        setHasConsent(false);
+        setFacts("");
+        setIssueType("");
+        setLocation("");
+        setIncidentDate("");
+        setSelectedEvidence([]);
+        setShowOutputs(false);
+        setTimeline([{ id: "1", date: "", description: "", evidence: "" }]);
+        setConfirmClear(false);
     };
 
     const toggleEvidence = (id: string) => {
@@ -114,9 +114,46 @@ export default function LegalClaimsPage() {
                 <p style={{ color: "#94a3b8", fontSize: "1.1rem" }}>
                     Organize your facts and evidence clearly before speaking to an authority or lawyer.
                 </p>
-                <button onClick={clearData} className="btn-secondary" style={{ marginTop: "1rem", color: "#f87171" }}>
-                    🗑️ Clear My Data
-                </button>
+                {!confirmClear ? (
+                    <button onClick={() => setConfirmClear(true)} className="btn-secondary" style={{ marginTop: "1rem", color: "#f87171" }}>
+                        🗑️ Clear My Data
+                    </button>
+                ) : (
+                    <div style={{ marginTop: "1rem", display: "inline-flex", flexDirection: "column", alignItems: "center", gap: "0.5rem" }}>
+                        <span style={{ fontSize: "0.85rem", color: "#ef4444", fontWeight: 600 }}>Are you sure? This cannot be undone.</span>
+                        <div style={{ display: "flex", gap: "0.5rem" }}>
+                            <button
+                                onClick={performClearData}
+                                style={{
+                                    background: "#ef4444",
+                                    border: "none",
+                                    color: "#fff",
+                                    padding: "0.5rem 1rem",
+                                    borderRadius: "8px",
+                                    fontSize: "0.85rem",
+                                    cursor: "pointer",
+                                    fontWeight: 700
+                                }}
+                            >
+                                Yes, Clear Data
+                            </button>
+                            <button
+                                onClick={() => setConfirmClear(false)}
+                                style={{
+                                    background: "rgba(255,255,255,0.1)",
+                                    border: "none",
+                                    color: "#cbd5e1",
+                                    padding: "0.5rem 1rem",
+                                    borderRadius: "8px",
+                                    fontSize: "0.85rem",
+                                    cursor: "pointer"
+                                }}
+                            >
+                                Cancel
+                            </button>
+                        </div>
+                    </div>
+                )}
             </div>
 
             <div className="glass-card" style={{ padding: "2rem", marginBottom: "3rem" }}>

@@ -7,6 +7,7 @@ type IssueType = "landlord" | "consumer" | "employment" | "government" | "follow
 export default function DocumentRequestGenerator() {
     const [hasConsent, setHasConsent] = useState(false);
     const [issueType, setIssueType] = useState<IssueType>("");
+    const [confirmClear, setConfirmClear] = useState(false);
 
     // Form fields
     const [recipient, setRecipient] = useState("");
@@ -27,18 +28,17 @@ export default function DocumentRequestGenerator() {
         }
     };
 
-    const clearForm = () => {
-        if (confirm("Clear all fields?")) {
-            setIssueType("");
-            setRecipient("");
-            setSender("");
-            setContact("");
-            setReference("");
-            setDeadline("");
-            setDateRange("");
-            setDocRequest("");
-            setExtraDocs("");
-        }
+    const performClearForm = () => {
+        setIssueType("");
+        setRecipient("");
+        setSender("");
+        setContact("");
+        setReference("");
+        setDeadline("");
+        setDateRange("");
+        setDocRequest("");
+        setExtraDocs("");
+        setConfirmClear(false);
     };
 
     const generateThai = () => {
@@ -217,9 +217,21 @@ export default function DocumentRequestGenerator() {
                         )}
 
                         <div style={{ display: "flex", gap: "1rem", marginBottom: "2rem" }}>
-                            <button onClick={clearForm} className="btn-secondary" style={{ padding: "0.75rem 1.5rem", color: "#f87171" }}>
-                                🗑️ Clear
-                            </button>
+                            {!confirmClear ? (
+                                <button onClick={() => setConfirmClear(true)} className="btn-secondary" style={{ padding: "0.75rem 1.5rem", color: "#f87171" }}>
+                                    🗑️ Clear
+                                </button>
+                            ) : (
+                                <div style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
+                                    <span style={{ fontSize: "0.85rem", color: "#ef4444", fontWeight: 600 }}>Are you sure?</span>
+                                    <button onClick={performClearForm} className="btn-primary" style={{ background: "#ef4444", border: "none", padding: "0.5rem 1rem", fontSize: "0.85rem" }}>
+                                        Yes
+                                    </button>
+                                    <button onClick={() => setConfirmClear(false)} className="btn-secondary" style={{ padding: "0.5rem 1rem", fontSize: "0.85rem" }}>
+                                        Cancel
+                                    </button>
+                                </div>
+                            )}
                         </div>
 
                         {/* Outputs */}
