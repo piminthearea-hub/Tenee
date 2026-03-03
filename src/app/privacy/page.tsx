@@ -1,8 +1,8 @@
 import React from 'react';
 
 export const metadata = {
-    title: "Privacy Notice | Tenee",
-    description: "Privacy Notice for Tenee.",
+    title: "Privacy & Data Protection | Tenee",
+    description: "Tenee is designed to operate without collecting or storing personal data.",
 };
 
 export default function PrivacyPage() {
@@ -15,105 +15,52 @@ export default function PrivacyPage() {
                     marginBottom: "1rem"
                 }}
             >
-                <span className="gradient-text gradient-text-teal">Privacy Notice (Tenee)</span>
+                <span className="gradient-text gradient-text-teal">🔒 Privacy & Data Protection</span>
             </h1>
 
-            <p style={{ color: "var(--color-text-secondary)", marginBottom: "0.25rem", fontSize: "0.95rem" }}>
-                <strong>Last updated:</strong> 2026-03-03
-            </p>
-            <p style={{ color: "var(--color-text-secondary)", marginBottom: "2.5rem", fontSize: "0.95rem" }}>
-                <strong>Template version:</strong> v1.0
-            </p>
-
-            <section style={{ marginBottom: "2rem" }}>
-                <h3 style={{ fontSize: "1.25rem", fontWeight: 700, marginBottom: "0.75rem", color: "var(--color-text-primary)" }}>
-                    1) Privacy-first design
-                </h3>
-                <p style={{ color: "var(--color-text-secondary)" }}>
-                    Tenee is designed to be privacy-first. <strong>No login is required.</strong><br />
-                    <strong>We do not sell your data.</strong>
+            <div style={{ color: "var(--color-text-secondary)", fontSize: "1.05rem" }}>
+                <p style={{ marginBottom: "1.5rem" }}>
+                    Tenee is designed to operate without collecting or storing personal data.
                 </p>
-            </section>
 
-            <section style={{ marginBottom: "2rem" }}>
-                <h3 style={{ fontSize: "1.25rem", fontWeight: 700, marginBottom: "0.75rem", color: "var(--color-text-primary)" }}>
-                    2) What we collect
-                </h3>
-                <ul style={{ color: "var(--color-text-secondary)", paddingLeft: "1.5rem", listStyleType: "disc" }}>
-                    <li style={{ marginBottom: "0.5rem" }}><strong>Information you type in:</strong> used to generate the templates/PDFs you request.</li>
-                    <li style={{ marginBottom: "0.5rem" }}><strong>We do not want sensitive data:</strong> please do <strong>not</strong> enter passport numbers, visa stamp images, bank statements, full date of birth, or private addresses.</li>
-                    <li style={{ marginBottom: "0.5rem" }}><strong>Basic technical logs (minimal):</strong> like most websites, limited technical logs may exist for security and reliability.</li>
+                <p style={{ marginBottom: "1rem" }}>
+                    This platform follows a privacy-by-design approach consistent with:
+                </p>
+                <ul style={{ paddingLeft: "1.5rem", listStyleType: "disc", marginBottom: "1.5rem" }}>
+                    <li style={{ marginBottom: "0.25rem" }}>Thailand Personal Data Protection Act (PDPA)</li>
+                    <li style={{ marginBottom: "0.25rem" }}>EU General Data Protection Regulation (GDPR) principles</li>
+                    <li style={{ marginBottom: "0.25rem" }}>Data minimization and purpose limitation standards</li>
                 </ul>
-            </section>
 
-            <section style={{ marginBottom: "2rem" }}>
-                <h3 style={{ fontSize: "1.25rem", fontWeight: 700, marginBottom: "0.75rem", color: "var(--color-text-primary)" }}>
-                    3) Cookies / local storage
-                </h3>
-                <p style={{ color: "var(--color-text-secondary)" }}>
-                    Tenee may use session storage (and in some cases local storage) to remember simple preferences (e.g., language choice, print mode). This stays on your device and can be cleared via your browser settings.
+                <p style={{ marginBottom: "1rem" }}>
+                    Tenee does not require user accounts and does not request:
                 </p>
-            </section>
-
-            <section style={{ marginBottom: "2rem" }}>
-                <h3 style={{ fontSize: "1.25rem", fontWeight: 700, marginBottom: "0.75rem", color: "var(--color-text-primary)" }}>
-                    4) How we use information
-                </h3>
-                <p style={{ color: "var(--color-text-secondary)", marginBottom: "0.5rem" }}>We use information only to:</p>
-                <ul style={{ color: "var(--color-text-secondary)", paddingLeft: "1.5rem", listStyleType: "disc", marginBottom: "1rem" }}>
-                    <li style={{ marginBottom: "0.25rem" }}>generate requested outputs,</li>
-                    <li style={{ marginBottom: "0.25rem" }}>keep the site working,</li>
-                    <li style={{ marginBottom: "0.25rem" }}>improve the tool.</li>
+                <ul style={{ paddingLeft: "1.5rem", listStyleType: "circle", marginBottom: "1.5rem" }}>
+                    <li style={{ marginBottom: "0.25rem" }}>Passport numbers</li>
+                    <li style={{ marginBottom: "0.25rem" }}>National identification numbers</li>
+                    <li style={{ marginBottom: "0.25rem" }}>Financial records</li>
+                    <li style={{ marginBottom: "0.25rem" }}>Visa stickers or document scans</li>
+                    <li style={{ marginBottom: "0.25rem" }}>Residential addresses</li>
                 </ul>
-                <p style={{ color: "var(--color-text-secondary)" }}>
-                    We do <strong>not</strong> sell personal data and do not use user-entered content for advertising.
-                </p>
-            </section>
 
-            <section style={{ marginBottom: "2rem" }}>
-                <h3 style={{ fontSize: "1.25rem", fontWeight: 700, marginBottom: "0.75rem", color: "var(--color-text-primary)" }}>
-                    5) Sharing
-                </h3>
-                <p style={{ color: "var(--color-text-secondary)" }}>
-                    We do not sell user data. We do not share user-entered content with advertisers.
+                <p style={{ marginBottom: "1.5rem", fontWeight: 600, color: "var(--color-text-primary)" }}>
+                    The tool is structured to function without personal identifiers.
                 </p>
-            </section>
 
-            <section style={{ marginBottom: "2rem" }}>
-                <h3 style={{ fontSize: "1.25rem", fontWeight: 700, marginBottom: "0.75rem", color: "var(--color-text-primary)" }}>
-                    6) Retention
-                </h3>
-                <p style={{ color: "var(--color-text-secondary)" }}>
-                    Tenee is intended to avoid storing user-entered content on servers. The safest approach is still: <strong>do not input sensitive personal information</strong>.
-                </p>
-            </section>
+                <div className="glass-card" style={{ borderLeft: "3px solid #f59e0b", padding: "1.5rem", marginBottom: "2rem" }}>
+                    <p style={{ marginBottom: "0.5rem", fontWeight: 600, color: "#f5c542" }}>Tenee does not sell personal data.</p>
+                    <p style={{ marginBottom: "0.5rem", fontWeight: 600, color: "#f5c542" }}>Tenee does not profile users.</p>
+                    <p style={{ marginBottom: "0", fontWeight: 600, color: "#f5c542" }}>Tenee does not conduct automated decision-making related to immigration status.</p>
+                </div>
 
-            <section style={{ marginBottom: "2rem" }}>
-                <h3 style={{ fontSize: "1.25rem", fontWeight: 700, marginBottom: "0.75rem", color: "var(--color-text-primary)" }}>
-                    7) Security
-                </h3>
-                <p style={{ color: "var(--color-text-secondary)" }}>
-                    No online service can guarantee absolute security. Please avoid entering sensitive personal information.
+                <p style={{ marginBottom: "1.5rem" }}>
+                    If users choose to paste information into the platform, they do so voluntarily and at their own discretion. Users are strongly advised not to enter sensitive personal data.
                 </p>
-            </section>
 
-            <section style={{ marginBottom: "2rem" }}>
-                <h3 style={{ fontSize: "1.25rem", fontWeight: 700, marginBottom: "0.75rem", color: "var(--color-text-primary)" }}>
-                    8) Updates
-                </h3>
-                <p style={{ color: "var(--color-text-secondary)" }}>
-                    We may update this notice. The “Last updated” date shows the current version.
+                <p style={{ marginBottom: "1.5rem", fontStyle: "italic", borderTop: "1px solid rgba(255,255,255,0.1)", paddingTop: "1.5rem" }}>
+                    This platform is informational only and does not provide legal advice, eligibility assessments, or official determinations.
                 </p>
-            </section>
-
-            <section style={{ marginBottom: "2rem" }}>
-                <h3 style={{ fontSize: "1.25rem", fontWeight: 700, marginBottom: "0.75rem", color: "var(--color-text-primary)" }}>
-                    9) Contact
-                </h3>
-                <p style={{ color: "var(--color-text-secondary)" }}>
-                    This is a free tool and we do not provide individual support.
-                </p>
-            </section>
+            </div>
         </div>
     );
 }

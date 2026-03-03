@@ -134,6 +134,45 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Transparency Initiative */}
+      <section style={{ padding: "4rem 1.5rem 1rem", maxWidth: "900px", margin: "0 auto", textAlign: "center" }}>
+        <h2 style={{ fontSize: "1.8rem", fontWeight: 800, color: "#1B365D", marginBottom: "1.5rem" }}>
+          Thailand Immigration Transparency Initiative
+        </h2>
+        <div style={{ background: "#f8fafc", padding: "2.5rem", borderRadius: "16px", border: "1px solid #e2e8f0", textAlign: "left" }}>
+          <p style={{ fontSize: "1.05rem", color: "#334155", marginBottom: "1rem", lineHeight: 1.7 }}>
+            Tenee provides structured, source-based overviews of Thai immigration categories and related regulatory intersections.
+          </p>
+          <p style={{ fontSize: "1.05rem", color: "#334155", marginBottom: "1rem", lineHeight: 1.7, fontWeight: 600 }}>
+            Our objective is transparency — not eligibility determination.
+          </p>
+          <p style={{ fontSize: "1.05rem", color: "#334155", marginBottom: "1.5rem", lineHeight: 1.7 }}>
+            All immigration decisions are made exclusively by Thai authorities.<br />
+            This platform summarizes publicly available structural information and links directly to official government sources.
+          </p>
+          <ul style={{ listStyleType: "none", padding: 0, margin: "0 0 2rem", color: "#475569", fontSize: "0.95rem" }}>
+            <li style={{ paddingBottom: "0.5rem" }}>✓ Built for clarity.</li>
+            <li style={{ paddingBottom: "0.5rem" }}>✓ Anchored in official publications.</li>
+            <li style={{ paddingBottom: "0.5rem" }}>✓ Maintained with institutional discipline.</li>
+          </ul>
+          <Link
+            href="/long-term-stay"
+            style={{
+              display: "inline-block",
+              background: "#1B365D",
+              color: "white",
+              padding: "0.8rem 1.5rem",
+              borderRadius: "8px",
+              fontWeight: 600,
+              textDecoration: "none",
+              transition: "all 0.2s"
+            }}
+          >
+            → View Long-Term Stay Overview
+          </Link>
+        </div>
+      </section>
+
       {/* How It Works */}
       <section style={{ padding: "3rem 1.5rem", maxWidth: "900px", margin: "0 auto" }}>
         <h2
@@ -261,6 +300,20 @@ export default function Home() {
               title: "Legal Toolkit",
               desc: "Organize facts and evidence for disputes. Generate timelines and polite Thai templates for clarification or documents.",
               color: "#8b5cf6",
+            },
+            {
+              icon: "🛫",
+              title: "First-Time Entry Guide",
+              desc: "High-level overview of Thailand entry requirements with official government links. Perfect for first-time visitors.",
+              color: "#1B365D",
+              href: "/entry-guide",
+            },
+            {
+              icon: "🏠",
+              title: "Long-Term Stay Overview",
+              desc: "Structured overview of retirement, remote work, LTR, and investment stay categories with official sources.",
+              color: "#1B365D",
+              href: "/long-term-stay",
             },
             {
               icon: "🔒",

@@ -4,6 +4,7 @@ import "./globals.css";
 import Link from "next/link";
 import { PrintModeProvider } from "@/components/PrintModeContext";
 import PrintModeToggle from "@/components/PrintModeToggle";
+import ConsentModal from "@/components/ConsentModal";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -169,6 +170,20 @@ export default function RootLayout({
                 Authorities
               </Link>
               <Link
+                href="/entry-guide"
+                className="btn-ghost nav-link"
+                style={{ fontSize: "0.9rem", padding: "0.5rem 0.75rem", minHeight: "auto" }}
+              >
+                Entry Guide
+              </Link>
+              <Link
+                href="/long-term-stay"
+                className="btn-ghost nav-link"
+                style={{ fontSize: "0.9rem", padding: "0.5rem 0.75rem", minHeight: "auto" }}
+              >
+                Long-Term Stay
+              </Link>
+              <Link
                 href="/write-thai"
                 className="btn-ghost nav-link"
                 style={{ fontSize: "0.9rem", padding: "0.5rem 0.75rem", minHeight: "auto" }}
@@ -180,6 +195,7 @@ export default function RootLayout({
           </nav>
 
           <main>{children}</main>
+          <ConsentModal />
 
           {/* Footer */}
           <footer
@@ -200,7 +216,7 @@ export default function RootLayout({
               approval. Requirements vary by office and can change. Thailand only.
             </p>
             <p style={{ marginTop: "0.5rem", color: "#2dd4bf", fontWeight: 600 }}>
-              🛡️ We do not sell your data.
+              🛡️ Privacy-by-design. Data minimization. Informational use only.
             </p>
             <div style={{ marginTop: "1rem", display: "flex", justifyContent: "center", gap: "1.5rem" }}>
               <Link href="/terms" style={{ color: "#64748b", textDecoration: "none" }}>
