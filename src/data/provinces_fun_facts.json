@@ -1,0 +1,382 @@
+[
+    {
+        "province": "Ang Thong",
+        "fact": "Home to the Great Buddha of Thailand (Phra Phuttha Maha Nawamin), the tallest Buddha statue in the country and the ninth tallest in the world, located at Wat Muang.",
+        "source_url": "https://en.wikipedia.org/wiki/Great_Buddha_of_Thailand"
+    },
+    {
+        "province": "Bangkok",
+        "fact": "Its full ceremonial name is the longest city name in the world, containing 168 letters and taking several seconds to recite in full.",
+        "source_url": "https://en.wikipedia.org/wiki/Bangkok"
+    },
+    {
+        "province": "Chai Nat",
+        "fact": "Known for the Chao Phraya Dam, the first large-scale dam built in Thailand to regulate water flow for the central plains.",
+        "source_url": "https://en.wikipedia.org/wiki/Chao_Phraya_Dam"
+    },
+    {
+        "province": "Kanchanaburi",
+        "fact": "Famous for the 'Death Railway' and the Bridge over the River Kwai, constructed during World War II.",
+        "source_url": "https://www.tourismthailand.org/Destinations/Provinces/Kanchanaburi/285"
+    },
+    {
+        "province": "Lopburi",
+        "fact": "Hosts an annual Monkey Buffet Festival where locals serve thousands of kilograms of food to the city's macaque population to show gratitude for bringing in tourists.",
+        "source_url": "https://en.wikipedia.org/wiki/Monkey_Buffet_Festival"
+    },
+    {
+        "province": "Nakhon Nayok",
+        "fact": "Features the Khun Dan Prakan Chon Dam, the longest roller-compacted concrete dam in the world.",
+        "source_url": "https://en.wikipedia.org/wiki/Khun_Dan_Prakan_Chon_Dam"
+    },
+    {
+        "province": "Nakhon Pathom",
+        "fact": "Home to Phra Pathommachedi, the world's tallest stupa, standing at approximately 120 meters.",
+        "source_url": "https://en.wikipedia.org/wiki/Phra_Pathommachedi"
+    },
+    {
+        "province": "Nonthaburi",
+        "fact": "Famous for its Nonthaburi Durian, high-quality fruit that is often referred to as the 'King of Durian' and can fetch extremely high prices.",
+        "source_url": "https://www.bangkokpost.com/thailand/general/1481545"
+    },
+    {
+        "province": "Pathum Thani",
+        "fact": "Known as the 'Lotus City' due to the many lotus ponds that once dotted its landscape.",
+        "source_url": "https://en.wikipedia.org/wiki/Pathum_Thani_province"
+    },
+    {
+        "province": "Phetchaburi",
+        "fact": "Hosts 'Phra Nakhon Khiri' (Palace on the Hill), a gorgeous 19th-century royal summer palace with a mix of Thai, Chinese, and European architecture.",
+        "source_url": "https://en.wikipedia.org/wiki/Phra_Nakhon_Khiri_Historical_Park"
+    },
+    {
+        "province": "Phra Nakhon Si Ayutthaya",
+        "fact": "Was the capital of the Kingdom of Siam for 417 years and is now a UNESCO World Heritage Site.",
+        "source_url": "https://whc.unesco.org/en/list/576"
+    },
+    {
+        "province": "Prachuap Khiri Khan",
+        "fact": "Thailand's narrowest province, with its thinnest point measuring only about 11 kilometers between the Gulf of Thailand and the Myanmar border.",
+        "source_url": "https://en.wikipedia.org/wiki/Prachuap_Khiri_Khan_province"
+    },
+    {
+        "province": "Ratchaburi",
+        "fact": "Famous for its intricate traditional pottery, particularly the 'Dragon Jar' (Ong Mongkorn), which is the province's signature product.",
+        "source_url": "https://www.tourismthailand.org/Destinations/Provinces/Ratchaburi/380"
+    },
+    {
+        "province": "Samut Prakan",
+        "fact": "Home to the Ancient City (Muang Boran), one of the world's largest outdoor museums, shaped like the map of Thailand.",
+        "source_url": "https://www.muangboranmuseum.com/en/"
+    },
+    {
+        "province": "Samut Sakhon",
+        "fact": "A major seafood hub known as the 'Kitchen of the World' for its massive seafood markets and processing industry.",
+        "source_url": "https://en.wikipedia.org/wiki/Samut_Sakhon_province"
+    },
+    {
+        "province": "Samut Songkhram",
+        "fact": "The smallest province in Thailand by area, it is famous for the Maeklong Railway Market where vendors retract stalls as trains pass through.",
+        "source_url": "https://en.wikipedia.org/wiki/Samut_Songkhram_province"
+    },
+    {
+        "province": "Saraburi",
+        "fact": "Home to Wat Phra Phutthabat, a revered 17th-century temple containing a sacred footprint of the Buddha.",
+        "source_url": "https://en.wikipedia.org/wiki/Wat_Phra_Phutthabat"
+    },
+    {
+        "province": "Sing Buri",
+        "fact": "Features the Phra Non Chaksi, one of the largest and most beautiful reclining Buddha statues in Thailand.",
+        "source_url": "https://en.wikipedia.org/wiki/Wat_Phra_Non_Chaksi"
+    },
+    {
+        "province": "Suphan Buri",
+        "fact": "Associated with the classic Thai literary epic 'Khun Chang Khun Phaen', which is set in this province.",
+        "source_url": "https://en.wikipedia.org/wiki/Suphan_Buri_province"
+    },
+    {
+        "province": "Chiang Mai",
+        "fact": "Established in 1296 as the capital of the Lanna Kingdom, its name literally means 'New City'.",
+        "source_url": "https://en.wikipedia.org/wiki/Chiang_Mai"
+    },
+    {
+        "province": "Chiang Rai",
+        "fact": "Home to the world-famous 'White Temple' (Wat Rong Khun), a unique contemporary Buddhist temple with intricate white architecture.",
+        "source_url": "https://en.wikipedia.org/wiki/Wat_Rong_Khun"
+    },
+    {
+        "province": "Kamphaeng Phet",
+        "fact": "Named 'Wall of Diamonds' (Kamphaeng Phet), referring to its once-impregnable defensive walls from the 14th century.",
+        "source_url": "https://en.wikipedia.org/wiki/Kamphaeng_Phet_province"
+    },
+    {
+        "province": "Lampang",
+        "fact": "The only province in Thailand that still uses horse-drawn carriages as a traditional form of transport for tourists.",
+        "source_url": "https://en.wikipedia.org/wiki/Lampang_province"
+    },
+    {
+        "province": "Lamphun",
+        "fact": "The smallest of the northern provinces, it was originally the capital of the ancient Hariphunchai Kingdom.",
+        "source_url": "https://en.wikipedia.org/wiki/Lamphun_province"
+    },
+    {
+        "province": "Mae Hong Son",
+        "fact": "Known as the 'City of Three Mists' due to the thick fog that covers its mountainous landscape during the winter and rainy seasons.",
+        "source_url": "https://www.tourismthailand.org/Destinations/Provinces/Mae-Hong-Son/333"
+    },
+    {
+        "province": "Nan",
+        "fact": "Isolated for centuries by high mountains, Nan developed a unique local culture and dialect that remains distinct today.",
+        "source_url": "https://en.wikipedia.org/wiki/Nan_province"
+    },
+    {
+        "province": "Phayao",
+        "fact": "Features the scenic Phayao Lake (Kwan Phayao), the largest freshwater lake in Northern Thailand.",
+        "source_url": "https://en.wikipedia.org/wiki/Phayao_province"
+    },
+    {
+        "province": "Phetchabun",
+        "fact": "Known for its beautiful mountainous scenery and cool climate, often called the 'Little Switzerland' of Thailand.",
+        "source_url": "https://en.wikipedia.org/wiki/Phetchabun_province"
+    },
+    {
+        "province": "Phichit",
+        "fact": "Known as 'The City of Crocodiles', it is the setting for the famous Thai folk legend of Krai Thong and the crocodile king Chalawan.",
+        "source_url": "https://en.wikipedia.org/wiki/Phichit_province"
+    },
+    {
+        "province": "Phitsanulok",
+        "fact": "Home to Phra Phuttha Chinnarat, widely considered to be one of the most beautiful Buddha images in Thailand.",
+        "source_url": "https://en.wikipedia.org/wiki/Wat_Phra_Si_Rattana_Mahathat"
+    },
+    {
+        "province": "Phrae",
+        "fact": "Features 'Phae Mueang Phi' (Ghost City Canyon), a natural forest area with strange mushroom-shaped rock formations.",
+        "source_url": "https://en.wikipedia.org/wiki/Phrae_province"
+    },
+    {
+        "province": "Sukhothai",
+        "fact": "The first capital of Siam (mid-13th to 14th century); its name means 'Dawn of Happiness'.",
+        "source_url": "https://whc.unesco.org/en/list/574"
+    },
+    {
+        "province": "Tak",
+        "fact": "Home to the Thi Lo Su Waterfall, the largest and highest waterfall in Thailand, located in the Umphang Wildlife Sanctuary.",
+        "source_url": "https://en.wikipedia.org/wiki/Tak_province"
+    },
+    {
+        "province": "Uttaradit",
+        "fact": "Known for the 'Long Lablae' durian, a rare variety of durian that is seedless and highly prized for its mild scent.",
+        "source_url": "https://www.bangkokpost.com/thailand/general/1481545"
+    },
+    {
+        "province": "Uthai Thani",
+        "fact": "Home to the Huai Kha Khaeng Wildlife Sanctuary, which contains the largest intact tropical dry forest in Mainland Southeast Asia.",
+        "source_url": "https://whc.unesco.org/en/list/591"
+    },
+    {
+        "province": "Amnat Charoen",
+        "fact": "Features Phra Mongkhon Ming Mueang, an 11-meter tall Buddha statue made of solid brass with gold leaf.",
+        "source_url": "https://en.wikipedia.org/wiki/Amnat_Charoen_province"
+    },
+    {
+        "province": "Bueng Kan",
+        "fact": "Thailand's youngest and 77th province, officially separated from Nong Khai in 2011.",
+        "source_url": "https://en.wikipedia.org/wiki/Bueng_Kan_province"
+    },
+    {
+        "province": "Buriram",
+        "fact": "Built around and upon ancient volcanic sites, including the stunning Phanom Rung Khmer historical park.",
+        "source_url": "https://en.wikipedia.org/wiki/Buriram_province"
+    },
+    {
+        "province": "Chaiyaphum",
+        "fact": "Famous for the Siam Tulips (Dok Krachiao) which bloom in bright pink across the fields of Pa Hin Ngam National Park during the rainy season.",
+        "source_url": "https://en.wikipedia.org/wiki/Pa_Hin_Ngam_National_Park"
+    },
+    {
+        "province": "Kalasin",
+        "fact": "One of the richest areas for dinosaur fossils in Southeast Asia, home to the Sirindhorn Dinosaur Museum.",
+        "source_url": "https://en.wikipedia.org/wiki/Sirindhorn_Museum"
+    },
+    {
+        "province": "Khon Kaen",
+        "fact": "A major economic hub of the Northeast, it is known for its high-quality Mudmee Silk and unique dinosaur discoveries.",
+        "source_url": "https://en.wikipedia.org/wiki/Khon_Kaen_province"
+    },
+    {
+        "province": "Loei",
+        "fact": "Regularly experiences the coldest temperatures in Thailand, with frosts often appearing on its high mountain peaks.",
+        "source_url": "https://en.wikipedia.org/wiki/Loei_province"
+    },
+    {
+        "province": "Maha Sarakham",
+        "fact": "Often called the 'Taxila of Isan' because it is a major regional center for education with numerous universities and institutes.",
+        "source_url": "https://en.wikipedia.org/wiki/Maha_Sarakham_province"
+    },
+    {
+        "province": "Mukdahan",
+        "fact": "Features the Phu Pha Thoep National Park, known for its bizarre mushroom-shaped rock formations created by millions of years of erosion.",
+        "source_url": "https://en.wikipedia.org/wiki/Mukdahan_province"
+    },
+    {
+        "province": "Nakhon Phanom",
+        "fact": "Located on the banks of the Mekong River, it features the Phra That Phanom, one of the most sacred Buddhist pagodas in Thailand.",
+        "source_url": "https://en.wikipedia.org/wiki/Nakhon_Phanom_province"
+    },
+    {
+        "province": "Nakhon Ratchasima",
+        "fact": "Also known as Korat, it is the largest province by area and the gateway to Northeastern Thailand (Isan).",
+        "source_url": "https://en.wikipedia.org/wiki/Nakhon_Ratchasima_province"
+    },
+    {
+        "province": "Nong Bua Lamphu",
+        "fact": "Features ancient dinosaur bone fossils and shells from millions of years ago, housed in a specialized museum.",
+        "source_url": "https://en.wikipedia.org/wiki/Nong_Bua_Lamphu_province"
+    },
+    {
+        "province": "Nong Khai",
+        "fact": "Famous for the 'Naga Fireballs', an unexplained natural phenomenon where glowing orbs rise from the Mekong River annually.",
+        "source_url": "https://en.wikipedia.org/wiki/Naga_fireball"
+    },
+    {
+        "province": "Roi Et",
+        "fact": "Named 'One Hundred and One' (Roi Et), though historically it likely referred to 11 satellite cities.",
+        "source_url": "https://en.wikipedia.org/wiki/Roi_Et_province"
+    },
+    {
+        "province": "Sakon Nakhon",
+        "fact": "Home to the annual Wax Castle Festival, where intricate miniatures of temples are carved from wax to celebrate the end of Buddhist Lent.",
+        "source_url": "https://en.wikipedia.org/wiki/Sakon_Nakhon_province"
+    },
+    {
+        "province": "Sisaket",
+        "fact": "Rich in Khmer ruins, including the stunning Prasat Hin Wat Sa Kamphaeng Yai which dates back to the 11th century.",
+        "source_url": "https://en.wikipedia.org/wiki/Sisaket_province"
+    },
+    {
+        "province": "Surin",
+        "fact": "Globally famous for its Elephant Roundup festival, reflecting the deep historical and cultural bond between the local Kuy people and elephants.",
+        "source_url": "https://en.wikipedia.org/wiki/Surin_province"
+    },
+    {
+        "province": "Ubon Ratchathani",
+        "fact": "Famous for its massive Candle Festival where gigantic, intricately carved wax sculptures are paraded through the city.",
+        "source_url": "https://en.wikipedia.org/wiki/Ubon_Ratchathani_province"
+    },
+    {
+        "province": "Udon Thani",
+        "fact": "Home to Ban Chiang, a UNESCO World Heritage Site with archaeological finds of bronze tools and pottery dating over 4,000 years.",
+        "source_url": "https://whc.unesco.org/en/list/575"
+    },
+    {
+        "province": "Yasothon",
+        "fact": "Famous for the 'Bun Bang Fai' Rocket Festival, where massive homemade rockets are launched into the sky to ask for seasonal rain.",
+        "source_url": "https://en.wikipedia.org/wiki/Rocket_Festival"
+    },
+    {
+        "province": "Chachoengsao",
+        "fact": "Home to Wat Saman Rattanaram, which features one of the world's largest pink reclining Ganesha statues.",
+        "source_url": "https://en.wikipedia.org/wiki/Chachoengsao_province"
+    },
+    {
+        "province": "Chanthaburi",
+        "fact": "The 'City of Gems', it is a world-renowned center for gemstone trading and polishing, particularly rubies and sapphires.",
+        "source_url": "https://en.wikipedia.org/wiki/Chanthaburi_province"
+    },
+    {
+        "province": "Chonburi",
+        "fact": "Home to Pattaya, the primary tourist hub, and the annual Buffalo Racing Festival held in October.",
+        "source_url": "https://en.wikipedia.org/wiki/Chonburi_province"
+    },
+    {
+        "province": "Prachinburi",
+        "fact": "Known for the Khao Yai National Park (shared with other provinces) and its plentiful fruit orchards, especially pomelo.",
+        "source_url": "https://en.wikipedia.org/wiki/Prachinburi_province"
+    },
+    {
+        "province": "Rayong",
+        "fact": "A major producer of seafood, fruit, and industrial products; it is the birthplace of the great Thai court poet Sunthorn Phu.",
+        "source_url": "https://en.wikipedia.org/wiki/Sunthorn_Phu"
+    },
+    {
+        "province": "Sa Kaeo",
+        "fact": "Located on the border with Cambodia, it is home to the massive Rong Kluea Market, one of Thailand's largest second-hand goods markets.",
+        "source_url": "https://en.wikipedia.org/wiki/Sa_Kaeo_province"
+    },
+    {
+        "province": "Trat",
+        "fact": "The easternmost mainland province, it serves as the gateway to the Koh Chang archipelago, which consists of 52 islands.",
+        "source_url": "https://en.wikipedia.org/wiki/Trat_province"
+    },
+    {
+        "province": "Chumphon",
+        "fact": "Known as the 'Gateway to the South', its long coastline offers some of Thailand's best snorkeling and diving without the crowds.",
+        "source_url": "https://en.wikipedia.org/wiki/Chumphon_province"
+    },
+    {
+        "province": "Krabi",
+        "fact": "Famous for its spectacular limestone karsts and cliffs that attract rock climbers from all over the world.",
+        "source_url": "https://en.wikipedia.org/wiki/Krabi_province"
+    },
+    {
+        "province": "Nakhon Si Thammarat",
+        "fact": "One of the oldest cities in Thailand, it was historically the center of the Southern Thai kingdom of Tambralinga.",
+        "source_url": "https://en.wikipedia.org/wiki/Nakhon_Si_Thammarat_province"
+    },
+    {
+        "province": "Narathiwat",
+        "fact": "Features the Phra Phuttha Thaksin Ming Mongkhon, a massive seated Buddha statue covered in gold-colored tiles.",
+        "source_url": "https://en.wikipedia.org/wiki/Narathiwat_province"
+    },
+    {
+        "province": "Pattani",
+        "fact": "Home to the historic Krue Se Mosque, an ancient structure with a mix of architectural styles dating back to the 16th century.",
+        "source_url": "https://en.wikipedia.org/wiki/Krue_Se_Mosque"
+    },
+    {
+        "province": "Phang Nga",
+        "fact": "Home to Phang Nga Bay Marine National Park, famous for its limestone karsts including the iconic 'James Bond Island'.",
+        "source_url": "https://en.wikipedia.org/wiki/Ao_Phang_Nga_National_Park"
+    },
+    {
+        "province": "Phatthalung",
+        "fact": "Considered the spiritual home of 'Nora' and 'Nang Talung' (shadow puppetry), two of Southern Thailand's most iconic performing arts.",
+        "source_url": "https://en.wikipedia.org/wiki/Phatthalung_province"
+    },
+    {
+        "province": "Phuket",
+        "fact": "Thailand's largest island, it was once a major center for tin mining before becoming a premier global tourism destination.",
+        "source_url": "https://en.wikipedia.org/wiki/Phuket_province"
+    },
+    {
+        "province": "Ranong",
+        "fact": "Known for having the highest rainfall in Thailand and for its natural geothermal hot springs that are free for public use.",
+        "source_url": "https://en.wikipedia.org/wiki/Ranong_province"
+    },
+    {
+        "province": "Satun",
+        "fact": "Home to the Tarutao National Marine Park, the first marine national park in Thailand and once a penal colony for political prisoners.",
+        "source_url": "https://en.wikipedia.org/wiki/Tarutao_National_Marine_Park"
+    },
+    {
+        "province": "Songkhla",
+        "fact": "Home to the largest freshwater lake in Thailand, Songkhla Lake, which supports a rare population of Irrawaddy dolphins.",
+        "source_url": "https://en.wikipedia.org/wiki/Songkhla_Lake"
+    },
+    {
+        "province": "Surat Thani",
+        "fact": "Known as the 'Province of a Thousand Islands', it is the gateway to Samui, Phangan, and Tao islands.",
+        "source_url": "https://en.wikipedia.org/wiki/Surat_Thani_province"
+    },
+    {
+        "province": "Trang",
+        "fact": "Famous for its unique Underwater Wedding Ceremony, held annually near Valentine's Day off the coast of Ko Kradan.",
+        "source_url": "https://en.wikipedia.org/wiki/Trang_province"
+    },
+    {
+        "province": "Yala",
+        "fact": "The only landlocked province in Southern Thailand, it is home to the stunning Hala-Bala Wildlife Sanctuary.",
+        "source_url": "https://en.wikipedia.org/wiki/Yala_province"
+    }
+]

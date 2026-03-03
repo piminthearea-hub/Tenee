@@ -1,0 +1,362 @@
+[
+    {
+        "dish_en": "Pad Thai",
+        "dish_th": "ผัดไทย",
+        "pronunciation": "Pad Thai",
+        "description_1to2_sentences": "A classic stir-fried noodle dish with a sweet, sour, and savory tamarind sauce. Often served with shrimp, tofu, peanuts, and bean sprouts.",
+        "spice_level_0to3": 1,
+        "allergy_note_short": "May contain peanuts, fish sauce, egg, and shellfish—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Pad_Thai"
+    },
+    {
+        "dish_en": "Tom Yum Goong",
+        "dish_th": "ต้มยำกุ้ง",
+        "pronunciation": "Tom Yum Goong",
+        "description_1to2_sentences": "A bold hot and sour soup with shrimp, lemongrass, galangal, and kaffir lime. It's an iconic Thai broth known for its aromatic citrus kick.",
+        "spice_level_0to3": 3,
+        "allergy_note_short": "Contains shrimp and fish sauce—ask the staff.",
+        "source_url": "https://www.thaicookingwithpaltrow.com/tom-yum-goong-recipe/"
+    },
+    {
+        "dish_en": "Som Tum",
+        "dish_th": "ส้มตำ",
+        "pronunciation": "Som Tum",
+        "description_1to2_sentences": "A spicy green papaya salad from Isan, hand-pounded in a mortar with lime, chilies, and palm sugar. It's refreshingly crunchy and packs a flavor punch.",
+        "spice_level_0to3": 3,
+        "allergy_note_short": "May contain peanuts, dried shrimp, and fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Papaya_salad"
+    },
+    {
+        "dish_en": "Green Curry",
+        "dish_th": "แกงเขียวหวาน",
+        "pronunciation": "Gaeng Keow Wan",
+        "description_1to2_sentences": "A fragrant, coconut-based curry made with green chilies, Thai basil, and baby eggplants. Despite its creamy look, it can be quite spicy.",
+        "spice_level_0to3": 2,
+        "allergy_note_short": "Contains shrimp paste and fish sauce—ask the staff.",
+        "source_url": "https://www.thespruceeats.com/thai-green-curry-with-chicken-3217316"
+    },
+    {
+        "dish_en": "Massaman Curry",
+        "dish_th": "แกงมัสมั่น",
+        "pronunciation": "Gaeng Massaman",
+        "description_1to2_sentences": "A mild, rich, and slightly sweet curry with influences from Persia and India. Usually features peanuts, potatoes, and tender meat.",
+        "spice_level_0to3": 1,
+        "allergy_note_short": "Contains peanuts and fish sauce—ask the staff.",
+        "source_url": "https://www.cnn.com/travel/article/massaman-curry-world-best-food/index.html"
+    },
+    {
+        "dish_en": "Pad Krapow",
+        "dish_th": "ผัดกะเพรา",
+        "pronunciation": "Pad Kra-pao",
+        "description_1to2_sentences": "A beloved street food stir-fry with holy basil, garlic, and chilies. Typically served with minced meat and a crispy fried egg on top.",
+        "spice_level_0to3": 3,
+        "allergy_note_short": "May contain soy sauce and fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Phat_kaphrao"
+    },
+    {
+        "dish_en": "Tom Kha Gai",
+        "dish_th": "ต้มข่าไก่",
+        "pronunciation": "Tom Kha Gai",
+        "description_1to2_sentences": "A creamy, mild chicken soup made with coconut milk and deep notes of galangal. It's much smoother and less spicy than Tom Yum.",
+        "spice_level_0to3": 1,
+        "allergy_note_short": "Contains fish sauce—ask the staff.",
+        "source_url": "https://www.bonappetit.com/recipe/tom-kha-gai-thai-coconut-chicken-soup"
+    },
+    {
+        "dish_en": "Thai Fried Rice",
+        "dish_th": "ข้าวผัด",
+        "pronunciation": "Khao Pad",
+        "description_1to2_sentences": "A simple yet delicious stir-fried jasmine rice with egg and garlic. Often served with a lime wedge and cucumber slices on the side.",
+        "spice_level_0to3": 0,
+        "allergy_note_short": "Contains egg, soy sauce, and fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Thai_fried_rice"
+    },
+    {
+        "dish_en": "Panang Curry",
+        "dish_th": "พะแนง",
+        "pronunciation": "Gaeng Panang",
+        "description_1to2_sentences": "A thick, salty, and sweet red curry with a rich coconut base. It's often garnished with finely shredded kaffir lime leaves.",
+        "spice_level_0to3": 2,
+        "allergy_note_short": "Contains peanuts, shrimp paste, and fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Phanaeng"
+    },
+    {
+        "dish_en": "Larb",
+        "dish_th": "ลาบ",
+        "pronunciation": "Larb",
+        "description_1to2_sentences": "A spicy and tangy minced meat salad flavored with lime, toasted rice powder, and fresh mint. A staple of Northeastern Thai cuisine.",
+        "spice_level_0to3": 3,
+        "allergy_note_short": "Contains fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Larb"
+    },
+    {
+        "dish_en": "Khao Soi",
+        "dish_th": "ข้าวซอย",
+        "pronunciation": "Khao Soi",
+        "description_1to2_sentences": "A Northern Thai curried noodle soup with soft egg noodles and crispy fried noodles on top. It's creamy, slightly sweet, and aromatic.",
+        "spice_level_0to3": 2,
+        "allergy_note_short": "Contains egg, shrimp paste, and fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Khao_soi"
+    },
+    {
+        "dish_en": "Pad See Ew",
+        "dish_th": "ผัดซีอิ๊ว",
+        "pronunciation": "Pad See Ew",
+        "description_1to2_sentences": "Stir-fried wide rice noodles with Chinese broccoli, egg, and dark soy sauce. It has a wonderful smoky \"wok hei\" flavor.",
+        "spice_level_0to3": 0,
+        "allergy_note_short": "Contains egg, soy sauce, and shellfish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Pad_see_ew"
+    },
+    {
+        "dish_en": "Drunken Noodles",
+        "dish_th": "ผัดขี้เมา",
+        "pronunciation": "Pad Kee Mao",
+        "description_1to2_sentences": "Spicy stir-fried wide noodles with holy basil and lots of chilies. Despite the name, there is no alcohol in the actual dish.",
+        "spice_level_0to3": 3,
+        "allergy_note_short": "Contains soy sauce and fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Drunken_noodles"
+    },
+    {
+        "dish_en": "Thai Fried Chicken",
+        "dish_th": "ไก่ทอด",
+        "pronunciation": "Gai Tod",
+        "description_1to2_sentences": "Famous Thai-style fried chicken, often marinated with garlic and coriander root. Served extra crispy with a sweet chili sauce.",
+        "spice_level_0to3": 0,
+        "allergy_note_short": "May contain wheat flour and soy sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Gai_tod"
+    },
+    {
+        "dish_en": "Moo Ping",
+        "dish_th": "หมูปิ้ง",
+        "pronunciation": "Moo Ping",
+        "description_1to2_sentences": "Grilled pork skewers marinated in coconut milk and palm sugar. A high-demand street snack usually eaten with sticky rice.",
+        "spice_level_0to3": 0,
+        "allergy_note_short": "Contains soy sauce and fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Moo_ping"
+    },
+    {
+        "dish_en": "Mango Sticky Rice",
+        "dish_th": "ข้าวเหนียวมะม่วง",
+        "pronunciation": "Khao Niao Mamuang",
+        "description_1to2_sentences": "Thailand's most famous dessert featuring sweet sticky rice, ripe mango, and coconut cream. A perfect end to a spicy meal.",
+        "spice_level_0to3": 0,
+        "allergy_note_short": "Frequently includes coconut and sesame seeds—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Mango_sticky_rice"
+    },
+    {
+        "dish_en": "Sour Curry",
+        "dish_th": "แกงส้ม",
+        "pronunciation": "Gaeng Som",
+        "description_1to2_sentences": "A tangy, orange-hued curry that uses tamarind for its signature sour taste. Typically contains fish and a variety of local vegetables.",
+        "spice_level_0to3": 3,
+        "allergy_note_short": "Contains fish and shrimp paste—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Kaeng_som"
+    },
+    {
+        "dish_en": "Grilled Fish with Salt",
+        "dish_th": "ปลาเผา",
+        "pronunciation": "Pla Pao",
+        "description_1to2_sentences": "Whole fish stuffed with lemongrass and kaffir lime, coated in a thick salt crust and grilled. The salt keeps the meat incredibly moist.",
+        "spice_level_0to3": 0,
+        "allergy_note_short": "Contains fish—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Pla_pao"
+    },
+    {
+        "dish_en": "Hainanese Chicken Rice",
+        "dish_th": "ข้าวมันไก่",
+        "pronunciation": "Khao Man Gai",
+        "description_1to2_sentences": "Thai version of chicken rice with poached chicken and fragrant rice cooked in broth. Served with a pungent ginger and chili sauce.",
+        "spice_level_0to3": 0,
+        "allergy_note_short": "Sauce contains soybeans and ginger—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Hainanese_chicken_rice"
+    },
+    {
+        "dish_en": "Spicy Beef Salad",
+        "dish_th": "ยำเนื้อ",
+        "pronunciation": "Yam Nua",
+        "description_1to2_sentences": "A refreshing salad of grilled beef slices tossed with lime juice, onions, and fresh Thai herbs. It's equal parts tangy and spicy.",
+        "spice_level_0to3": 2,
+        "allergy_note_short": "Contains fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Yam_nua"
+    },
+    {
+        "dish_en": "Red Curry",
+        "dish_th": "แกงเผ็ด",
+        "pronunciation": "Gaeng Phet",
+        "description_1to2_sentences": "A versatile coconut curry using red chili paste as its base. Usually cooked with bamboo shoots, basil, and a choice of meat.",
+        "spice_level_0to3": 2,
+        "allergy_note_short": "Contains shrimp paste and fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Red_curry"
+    },
+    {
+        "dish_en": "Stir-Fried Glass Noodles",
+        "dish_th": "ผัดวุ้นเส้น",
+        "pronunciation": "Pad Woon Sen",
+        "description_1to2_sentences": "Chewy mung bean noodles stir-fried with egg, wood ear mushrooms, and crisp vegetables. A mild and comforting dish.",
+        "spice_level_0to3": 0,
+        "allergy_note_short": "Contains egg, soy sauce, and fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Pad_woon_sen"
+    },
+    {
+        "dish_en": "Steamed Fish Curry Custard",
+        "dish_th": "ห่อหมกปลา",
+        "pronunciation": "Hor Mok Pla",
+        "description_1to2_sentences": "A delicate mousse-like curry made from fish, coconut cream, and chili paste, steamed in banana leaf cups. Rich and aromatic.",
+        "spice_level_0to3": 2,
+        "allergy_note_short": "Contains fish, egg, and shrimp paste—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Hor_mok"
+    },
+    {
+        "dish_en": "Thai Fish Cakes",
+        "dish_th": "ทอดมันปลา",
+        "pronunciation": "Tod Mun Pla",
+        "description_1to2_sentences": "Springy fish patties seasoned with red curry paste and thinly sliced long beans. Typically served with a sweet cucumber radish dip.",
+        "spice_level_0to3": 1,
+        "allergy_note_short": "Contains fish and egg—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Tod_mun"
+    },
+    {
+        "dish_en": "Crispy Pork with Chinese Broccoli",
+        "dish_th": "ผัดคะน้าหมูกรอบ",
+        "pronunciation": "Pad Kana Moo Krob",
+        "description_1to2_sentences": "Slabs of crispy-skinned pork belly stir-fried with tender Chinese broccoli and oyster sauce. A savory and satisfying street staple.",
+        "spice_level_0to3": 1,
+        "allergy_note_short": "Contains soy sauce and shellfish sauce—ask the staff.",
+        "source_url": "https://www.thaitable.com/thai-food/recipe/crispy-pork-with-chinese-broccoli"
+    },
+    {
+        "dish_en": "Braised Pork Leg on Rice",
+        "dish_th": "ข้าวขาหมู",
+        "pronunciation": "Khao Kha Moo",
+        "description_1to2_sentences": "Succulent pork leg slow-braised in Chinese five-spice and soy sauce until it melts in your mouth. Served with pickled greens.",
+        "spice_level_0to3": 0,
+        "allergy_note_short": "Contains soy sauce and egg—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Khao_kha_mu"
+    },
+    {
+        "dish_en": "Thai Omelette",
+        "dish_th": "ไข่เจียว",
+        "pronunciation": "Kai Jeow",
+        "description_1to2_sentences": "Deep-fried Thai omelette that is light, airy, and incredibly crispy at the edges. Best enjoyed with a dash of Sriracha sauce.",
+        "spice_level_0to3": 0,
+        "allergy_note_short": "Contains egg and fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Kai_chiao"
+    },
+    {
+        "dish_en": "Spicy Southern Fish Curry",
+        "dish_th": "แกงไตปลา",
+        "pronunciation": "Gaeng Tai Pla",
+        "description_1to2_sentences": "A notoriously spicy and pungent curry from the South, made with fermented fish innards. It's an acquired taste for the brave!",
+        "spice_level_0to3": 3,
+        "allergy_note_short": "Contains fish—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Kaeng_tai_pla"
+    },
+    {
+        "dish_en": "Waterfall Pork Salad",
+        "dish_th": "น้ำตกหมู",
+        "pronunciation": "Nam Tok Moo",
+        "description_1to2_sentences": "Grilled pork slices tossed with a spicy, herb-filled dressing and toasted rice powder. Named for the dripping juices of the meat.",
+        "spice_level_0to3": 3,
+        "allergy_note_short": "Contains fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Nam_tok_mu"
+    },
+    {
+        "dish_en": "Dry Red Curry with Long Beans",
+        "dish_th": "ผัดพริกขิง",
+        "pronunciation": "Pad Prik King",
+        "description_1to2_sentences": "A stir-fry that uses a concentrated red curry paste without coconut milk. It has a distinctive sweet, deep flavor.",
+        "spice_level_0to3": 2,
+        "allergy_note_short": "Contains shrimp paste and fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Phat_phrik_khing"
+    },
+    {
+        "dish_en": "Spicy and Sour Rib Soup",
+        "dish_th": "ต้มแซ่บ",
+        "pronunciation": "Tom Saap",
+        "description_1to2_sentences": "A clear, herbal soup with tender pork ribs, flavored with lime and dried chili flakes. A refreshing and zingy Isan specialty.",
+        "spice_level_0to3": 3,
+        "allergy_note_short": "Contains fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Tom_sap"
+    },
+    {
+        "dish_en": "Sticky Rice",
+        "dish_th": "ข้าวเหนียว",
+        "pronunciation": "Khao Niao",
+        "description_1to2_sentences": "The staple carbohydrate of the North and Northeast. It's hand-rolled into small balls to scoop up salads and grilled meats.",
+        "spice_level_0to3": 0,
+        "allergy_note_short": "Generally safe, but ask about cross-contamination—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Sticky_rice"
+    },
+    {
+        "dish_en": "Acacia Leaf Omelette",
+        "dish_th": "ชะอมไข่ทอด",
+        "pronunciation": "Cha-Om Kai Tod",
+        "description_1to2_sentences": "Deep-fried omelette stuffed with climbing wattle leaves, which have a unique nutty aroma. Usually served with a spicy shrimp paste dip.",
+        "spice_level_0to3": 0,
+        "allergy_note_short": "Contains egg and fish sauce—ask the staff.",
+        "source_url": "https://www.thaitable.com/thai-food/recipe/acacia-omelette"
+    },
+    {
+        "dish_en": "Tomato Chili Dip",
+        "dish_th": "น้ำพริกอ่อง",
+        "pronunciation": "Nam Prik Ong",
+        "description_1to2_sentences": "A mild Northern Thai dip made with minced pork and tomatoes. It tastes somewhat like a Thai version of Bolognese and is very accessible.",
+        "spice_level_0to3": 1,
+        "allergy_note_short": "Contains soy sauce and fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Nam_phrik_ong"
+    },
+    {
+        "dish_en": "Northern Pork Curry",
+        "dish_th": "แกงฮังเล",
+        "pronunciation": "Gaeng Hung Lay",
+        "description_1to2_sentences": "A rich, slow-cooked pork belly curry flavored with ginger and pickled garlic. It carries a delightful sweet and sour profile.",
+        "spice_level_0to3": 1,
+        "allergy_note_short": "Contains peanuts and soy sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Kaeng_hang_le"
+    },
+    {
+        "dish_en": "Crispy Pork Holy Basil",
+        "dish_th": "ผัดกะเพราหมูกรอบ",
+        "pronunciation": "Pad Krapow Moo Krob",
+        "description_1to2_sentences": "A variation of Pad Krapow using chunks of crispy-skinned pork belly. It's a favorite for its combination of spice and crunch.",
+        "spice_level_0to3": 3,
+        "allergy_note_short": "Contains soy sauce and shellfish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Phat_kaphrao"
+    },
+    {
+        "dish_en": "Grilled Squid",
+        "dish_th": "ปลาหมึกย่าง",
+        "pronunciation": "Pla Muek Yang",
+        "description_1to2_sentences": "Fresh squid charred over hot coals, served with a fiery green seafood sauce made of lime, garlic, and chilies.",
+        "spice_level_0to3": 3,
+        "allergy_note_short": "Contains shellfish and fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Thai_seafood_dipping_sauce"
+    },
+    {
+        "dish_en": "Pineapple Fried Rice",
+        "dish_th": "ข้าวผัดสับปะรด",
+        "pronunciation": "Khao Pad Sapparot",
+        "description_1to2_sentences": "A vibrant fried rice often served inside a hollowed pineapple. It's sweet and savory, studded with cashews, raisins, and turmeric.",
+        "spice_level_0to3": 1,
+        "allergy_note_short": "Contains cashews, egg, and fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Thai_fried_rice"
+    },
+    {
+        "dish_en": "Boat Noodles",
+        "dish_th": "ก๋วยเตี๋ยวเรือ",
+        "pronunciation": "Kuay Teow Reua",
+        "description_1to2_sentences": "A dark, intense noodle soup traditionally served from boats. The broth is thickened with spices and a touch of blood for richness.",
+        "spice_level_0to3": 2,
+        "allergy_note_short": "Contains soy sauce and fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Boat_noodles"
+    },
+    {
+        "dish_en": "Grilled Chicken",
+        "dish_th": "ไก่ย่าง",
+        "pronunciation": "Gai Yang",
+        "description_1to2_sentences": "Succulent chicken marinated in lemongrass, garlic, and coriander root before being grilled. Best with sticky rice and papaya salad.",
+        "spice_level_0to3": 0,
+        "allergy_note_short": "Contains soy sauce and fish sauce—ask the staff.",
+        "source_url": "https://en.wikipedia.org/wiki/Gai_yang"
+    }
+]

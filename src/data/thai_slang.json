@@ -1,0 +1,543 @@
+[
+    {
+        "phrase_th": "ว่าไง",
+        "pronunciation": "Wa Ngai",
+        "meaning_en": "What's up? / Hey!",
+        "when_to_use_1_sentence": "Use this as an informal greeting with friends or people close to your age.",
+        "formality": "informal",
+        "polite_alternative_optional": "สวัสดีครับ/ค่ะ (Sawatdee krap/ka)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "ชิลๆ",
+        "pronunciation": "Chill Chill",
+        "meaning_en": "Chilling out / Relaxed",
+        "when_to_use_1_sentence": "Use this to describe a relaxed atmosphere or a laid-back activity.",
+        "formality": "informal",
+        "polite_alternative_optional": "ผ่อนคลาย (Phon klai)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "แซ่บ",
+        "pronunciation": "Saap",
+        "meaning_en": "Delicious / Spicy and tasty",
+        "when_to_use_1_sentence": "Commonly used for Isan food or to describe someone who looks very attractive.",
+        "formality": "informal",
+        "polite_alternative_optional": "อร่อยมาก (Aroy maak)",
+        "source_url": "https://fanclubthailand.co.uk/thai-slang-phrases-to-know/"
+    },
+    {
+        "phrase_th": "ฟิน",
+        "pronunciation": "Fin",
+        "meaning_en": "Extremely satisfied / Feeling great",
+        "when_to_use_1_sentence": "Use this when something—like food or a movie—makes you feel blissful.",
+        "formality": "informal",
+        "polite_alternative_optional": "มีความสุขมาก (Mee kwaam suk maak)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "ปังมาก",
+        "pronunciation": "Bpang Maak",
+        "meaning_en": "Awesome / Excellent / Lit",
+        "when_to_use_1_sentence": "Use this to praise something that is impressive or highly successful.",
+        "formality": "informal",
+        "polite_alternative_optional": "ยอดเยี่ยมมาก (Yord yiam maak)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "นก",
+        "pronunciation": "Nok",
+        "meaning_en": "To fail at flirting / To get rejected",
+        "meaning_detail": "Literally means 'bird'. Used when someone tries to flirt but fails.",
+        "when_to_use_1_sentence": "A self-deprecating or joking way to say you missed out on a romantic chance.",
+        "formality": "informal",
+        "polite_alternative_optional": "ไม่สำเร็จ (Mai samret)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "เทพ",
+        "pronunciation": "Thep",
+        "meaning_en": "God-level / Extremely skillful",
+        "when_to_use_1_sentence": "Call someone this when they are exceptionally good at a game or skill.",
+        "formality": "informal",
+        "polite_alternative_optional": "เก่งมาก (Geng maak)",
+        "source_url": "https://thaipod101.com"
+    },
+    {
+        "phrase_th": "เจ๋ง",
+        "pronunciation": "Jeng",
+        "meaning_en": "Cool / Awesome",
+        "when_to_use_1_sentence": "A classic slang word to show you are impressed by something cool.",
+        "formality": "informal",
+        "polite_alternative_optional": "ดีมาก (Dee maak)",
+        "source_url": "https://talkpal.ai/thai-slang-expressions/"
+    },
+    {
+        "phrase_th": "อิน",
+        "pronunciation": "In",
+        "meaning_en": "Deeply into something / Emotionally invested",
+        "when_to_use_1_sentence": "Use this when you are very touched by a sad song or engrossed in a drama.",
+        "formality": "informal",
+        "polite_alternative_optional": "มีอารมณ์ร่วม (Mee aa-rom ruam)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "จิ้น",
+        "pronunciation": "Jin",
+        "meaning_en": "To imagine a romantic couple",
+        "when_to_use_1_sentence": "Used when fans want two celebrities or characters to date in real life.",
+        "formality": "informal",
+        "polite_alternative_optional": "จินตนาการ (Jintanagaan)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "มโน",
+        "pronunciation": "Ma-no",
+        "meaning_en": "To daydream / To imagine things",
+        "when_to_use_1_sentence": "Use this when someone is making up scenarios that aren't real.",
+        "formality": "informal",
+        "polite_alternative_optional": "คิดไปเอง (Kit bpai eng)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "เซ็ง",
+        "pronunciation": "Seng",
+        "meaning_en": "Bored / Annoyed / Disappointed",
+        "when_to_use_1_sentence": "A very common way to express frustration with a boring situation.",
+        "formality": "informal",
+        "polite_alternative_optional": "เบื่อ (Beua)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "งง",
+        "pronunciation": "Ngong",
+        "meaning_en": "Confused",
+        "when_to_use_1_sentence": "Short and simple way to say you don't understand what's happening.",
+        "formality": "neutral",
+        "polite_alternative_optional": "สับสน (Sap-son)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "เหนื่อยใจ",
+        "pronunciation": "Neuy Jai",
+        "meaning_en": "Emotionally drained / Fed up",
+        "when_to_use_1_sentence": "Expresses a deeper, internal tiredness rather than just physical fatigue.",
+        "formality": "neutral",
+        "polite_alternative_optional": "ท้อแท้ (Thor thae)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "หิวโซ",
+        "pronunciation": "Hiew Soh",
+        "meaning_en": "Starving / Ravenously hungry",
+        "when_to_use_1_sentence": "Use this when you haven't eaten all day and are desperate for food.",
+        "formality": "informal",
+        "polite_alternative_optional": "หิวมาก (Hiew maak)",
+        "source_url": "https://inlinguabangkok.com/thai-slang/"
+    },
+    {
+        "phrase_th": "อิ่มแปล้",
+        "pronunciation": "Im Bplae",
+        "meaning_en": "Stuffed / Very full",
+        "when_to_use_1_sentence": "Use this after a big meal to say you can't eat another bite.",
+        "formality": "informal",
+        "polite_alternative_optional": "อิ่มมาก (Im maak)",
+        "source_url": "https://inlinguabangkok.com/thai-slang/"
+    },
+    {
+        "phrase_th": "เพื่อนซี้",
+        "pronunciation": "Peuan See",
+        "meaning_en": "Best friend / Close pal",
+        "when_to_use_1_sentence": "A cute way to refer to your closest friend.",
+        "formality": "informal",
+        "polite_alternative_optional": "เพื่อนสนิท (Peuan sanit)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "กิ๊ก",
+        "pronunciation": "Gik",
+        "meaning_en": "A fling / Casual partner",
+        "when_to_use_1_sentence": "Refers to someone you are seeing casually, not as a main partner.",
+        "formality": "informal",
+        "polite_alternative_optional": "เพื่อนพิเศษ (Peuan piset)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "แฟน",
+        "pronunciation": "Faen",
+        "meaning_en": "Boyfriend / Girlfriend / Fan",
+        "when_to_use_1_sentence": "The standard neutral term for a romantic partner or a celebrity's fan.",
+        "formality": "neutral",
+        "polite_alternative_optional": "คนรัก (Kon rak)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "สู้ๆ",
+        "pronunciation": "Soo Soo",
+        "meaning_en": "Keep fighting! / You can do it!",
+        "when_to_use_1_sentence": "The most common way to encourage someone who is facing a challenge.",
+        "formality": "neutral",
+        "polite_alternative_optional": "พยายามต่อไปนะครับ/คะ (Phayayaam tor bpai na krap/ka)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "เจอกัน",
+        "pronunciation": "Jer Gan",
+        "meaning_en": "See ya / Catch you later",
+        "when_to_use_1_sentence": "A relaxed way to say goodbye to friends you'll see again soon.",
+        "formality": "informal",
+        "polite_alternative_optional": "แล้วพบกันใหม่ครับ/ค่ะ (Laew pob gan mai krap/ka)",
+        "source_url": "https://mysakonnakhon.com/thai-phrases/"
+    },
+    {
+        "phrase_th": "บอกเลย",
+        "pronunciation": "Bok Loey",
+        "meaning_en": "I'm telling you / Let me say",
+        "when_to_use_1_sentence": "Use this as an emphatic opener to share a strong opinion or news.",
+        "formality": "informal",
+        "polite_alternative_optional": "ขอบอกว่า (Khor bok waa)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "ใช่เลย",
+        "pronunciation": "Chai Loey",
+        "meaning_en": "Exactly! / Spot on!",
+        "when_to_use_1_sentence": "Use this when you completely agree with what someone just said.",
+        "formality": "informal",
+        "polite_alternative_optional": "ถูกต้องแล้วครับ/ค่ะ (Tuuk tong laew krap/ka)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "ดีใจ",
+        "pronunciation": "Dee Jai",
+        "meaning_en": "Happy / Glad",
+        "when_to_use_1_sentence": "A common way to express happiness about a specific event.",
+        "formality": "neutral",
+        "polite_alternative_optional": "มีความสุข (Mee kwaam suk)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "คิดถึง",
+        "pronunciation": "Kit Teung",
+        "meaning_en": "Miss you / Thinking of you",
+        "when_to_use_1_sentence": "The standard way to tell someone you miss them.",
+        "formality": "neutral",
+        "polite_alternative_optional": "ระลึกถึง (Raleuk teung)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "เว่อร์",
+        "pronunciation": "Wuer",
+        "meaning_en": "Over the top / Exaggerated",
+        "when_to_use_1_sentence": "Used when someone is being too dramatic or telling an unlikely story.",
+        "formality": "informal",
+        "polite_alternative_optional": "เกินจริง (Gern jing)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "จบคะ",
+        "pronunciation": "Job Ka",
+        "meaning_en": "End of story / Done",
+        "when_to_use_1_sentence": "A sassy way to end a conversation or state your final decision.",
+        "formality": "informal",
+        "polite_alternative_optional": "สิ้นสุดเรื่องนี้ (Sinsut reuang nee)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "ไหวป่ะ",
+        "pronunciation": "Wai Pa?",
+        "meaning_en": "Are you okay? / Can you handle it?",
+        "when_to_use_1_sentence": "Ask this to check if a friend is struggling with work or a situation.",
+        "formality": "informal",
+        "polite_alternative_optional": "คุณไหวไหมครับ/คะ (Khun wai mai krap/ka)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "น่ารักอะ",
+        "pronunciation": "Naa Rak Ah",
+        "meaning_en": "So cute! / How lovely!",
+        "when_to_use_1_sentence": "An enthusiastic way to react to something cute or kind.",
+        "formality": "informal",
+        "polite_alternative_optional": "น่ารักมากครับ/ค่ะ (Naa rak maak krap/ka)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "เอาเหอะ",
+        "pronunciation": "Ao Hur",
+        "meaning_en": "Whatever / Fine, go ahead",
+        "when_to_use_1_sentence": "Used when you give in to someone's persistent request, even if reluctant.",
+        "formality": "informal",
+        "polite_alternative_optional": "ตกลงครับ/ค่ะ (Tok long krap/ka)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "ไม่แคร์",
+        "pronunciation": "Mai Care",
+        "meaning_en": "I don't care / Unbothered",
+        "when_to_use_1_sentence": "Borrowed from English, used to show you aren't affected by criticism.",
+        "formality": "informal",
+        "polite_alternative_optional": "ไม่กังวล (Mai gang won)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "เต็มที่",
+        "pronunciation": "Tem Tee",
+        "meaning_en": "Give it your all / To the max",
+        "when_to_use_1_sentence": "Encouraging someone to do their absolute best or enjoy themselves fully.",
+        "formality": "neutral",
+        "polite_alternative_optional": "สุดความสามารถ (Sut kwaam saamart)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "งานงอก",
+        "pronunciation": "Ngaan Ngok",
+        "meaning_en": "Trouble arises / Unexpected work",
+        "when_to_use_1_sentence": "Use this when a problem suddenly appears or more work is dumped on you.",
+        "formality": "informal",
+        "polite_alternative_optional": "มีภาระเพิ่มขึ้น (Mee bhara poerm kheun)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "จัดไป",
+        "pronunciation": "Jat Bpai",
+        "meaning_en": "Let's do it! / Go for it!",
+        "when_to_use_1_sentence": "A spirited way to agree to a plan or start an activity.",
+        "formality": "informal",
+        "polite_alternative_optional": "ดำเนินการเลย (Damnern garn loey)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "ไปเหอะ",
+        "pronunciation": "Bpai Hur",
+        "meaning_en": "Let's go / Just go",
+        "when_to_use_1_sentence": "A casual invitation or instruction to leave.",
+        "formality": "informal",
+        "polite_alternative_optional": "ไปกันเถอะครับ (Bpai gan thoe krap)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "เอาไงไรงี้",
+        "pronunciation": "Ao Ngai Rai Ngee",
+        "meaning_en": "What's the plan? / How should we do it?",
+        "when_to_use_1_sentence": "A very colloquial way to ask for a decision or next steps.",
+        "formality": "informal",
+        "polite_alternative_optional": "จะทำอย่างไรดี (Ja tam yaang rai dee)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "ก็ดีนะ",
+        "pronunciation": "Gor Dee Na",
+        "meaning_en": "It's okay / Not bad",
+        "when_to_use_1_sentence": "A mild, polite way to agree or give a positive review.",
+        "formality": "neutral",
+        "polite_alternative_optional": "ดีครับ/ค่ะ (Dee krap/ka)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "แล้วไง",
+        "pronunciation": "Laew Ngai",
+        "meaning_en": "So what? / And then?",
+        "when_to_use_1_sentence": "Can be used to ask for the rest of a story or to dismiss a point.",
+        "formality": "informal",
+        "polite_alternative_optional": "แล้วอย่างไรต่อครับ (Laew yaang rai tor krap)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "ใจเย็น",
+        "pronunciation": "Jai Yen",
+        "meaning_en": "Calm down / Chill out",
+        "when_to_use_1_sentence": "Tell a friend this if they are getting angry or rushing too much.",
+        "formality": "neutral",
+        "polite_alternative_optional": "กรุณาสงบสติอารมณ์ (Karuna sangob sati arom)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "ไม่เอาอะ",
+        "pronunciation": "Mai Ao Ah",
+        "meaning_en": "I don't want it / No thanks",
+        "when_to_use_1_sentence": "A soft but clear way to refuse an offer or idea.",
+        "formality": "informal",
+        "polite_alternative_optional": "ไม่ต้องการครับ/ค่ะ (Mai tong garn krap/ka)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "เหรอออ",
+        "pronunciation": "Rer-rrr",
+        "meaning_en": "Really? (with sarcasm/doubt)",
+        "when_to_use_1_sentence": "Used with a long tone to show you don't quite believe what you're hearing.",
+        "formality": "informal",
+        "polite_alternative_optional": "จริงหรือครับ? (Jing reu krap?)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "สุดยอดเลย",
+        "pronunciation": "Sut Yort Loey",
+        "meaning_en": "That's incredible! / Top tier!",
+        "when_to_use_1_sentence": "Use this to praise a performance, a meal, or a view.",
+        "formality": "neutral",
+        "polite_alternative_optional": "ยอดเยี่ยมที่สุดครับ (Yord yiam tee sut krap)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "เอาเครื่อง",
+        "pronunciation": "Ao Khreuang",
+        "meaning_en": "Full options / Loaded",
+        "when_to_use_1_sentence": "Commonly used when ordering food to ask for all toppings/ingredients.",
+        "formality": "informal",
+        "polite_alternative_optional": "ใส่เครื่องทุกอย่าง (Sai khreuang tuk yaang)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "ช่างเถอะ",
+        "pronunciation": "Chaang Thoe",
+        "meaning_en": "Forget it / Never mind",
+        "when_to_use_1_sentence": "Use this when you want to drop a topic that isn't worth worrying about.",
+        "formality": "neutral",
+        "polite_alternative_optional": "ไม่เป็นไรครับ (Mai bpen rai krap)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "มีไรป่ะ",
+        "pronunciation": "Mee Rai Pa?",
+        "meaning_en": "Is something wrong? / You got a problem?",
+        "when_to_use_1_sentence": "Can be used jokingly or defensively if someone is staring or acting weird.",
+        "formality": "informal",
+        "polite_alternative_optional": "มีอะไรหรือเปล่าครับ (Mee arai reu bplao krap)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "อะไรก็ได้",
+        "pronunciation": "Arai Gor Dai",
+        "meaning_en": "Anything / Whatever you want",
+        "when_to_use_1_sentence": "The standard 'I'm Easy' response when asked to make a choice.",
+        "formality": "neutral",
+        "polite_alternative_optional": "อะไรก็ยินดีครับ (Arai gor yin dee krap)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "จัดหนัก",
+        "pronunciation": "Jat Nak",
+        "meaning_en": "Go hard / Do it intensely",
+        "when_to_use_1_sentence": "Use this when planning to eat a huge meal or work very hard.",
+        "formality": "informal",
+        "polite_alternative_optional": "ทำอย่างเต็มที่ (Tam yaang tem tee)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "หล่อเลย",
+        "pronunciation": "Lor Loey",
+        "meaning_en": "Looking sharp / Looking good",
+        "when_to_use_1_sentence": "Complement a male friend after they get a haircut or dress up.",
+        "formality": "informal",
+        "polite_alternative_optional": "ดูดีมากครับ (Du dee maak krap)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "สวยเว่อร์",
+        "pronunciation": "Suay Wuer",
+        "meaning_en": "Stunningly beautiful",
+        "when_to_use_1_sentence": "Use this for a scenery, an outfit, or a person that looks amazing.",
+        "formality": "informal",
+        "polite_alternative_optional": "สวยงามมากครับ (Suay ngaam maak krap)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "ไม่ธรรมดา",
+        "pronunciation": "Mai Thammada",
+        "meaning_en": "Impressive / Out of the ordinary",
+        "when_to_use_1_sentence": "Use this to describe someone's exceptional talent or a great achievement.",
+        "formality": "neutral",
+        "polite_alternative_optional": "วิเศษมาก (Wiset maak)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "ตามนั้น",
+        "pronunciation": "Tarm Nan",
+        "meaning_en": "Exactly / Just like that",
+        "when_to_use_1_sentence": "A short way to agree and finalize a plan or statement.",
+        "formality": "informal",
+        "polite_alternative_optional": "ตามความต้องการนั้นครับ (Tarm kwaam tong garn nan krap)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "จัดเต็ม",
+        "pronunciation": "Jat Tem",
+        "meaning_en": "Fully loaded / All out",
+        "when_to_use_1_sentence": "Used for outfits, parties, or servings that have no holding back.",
+        "formality": "informal",
+        "polite_alternative_optional": "เตรียมพร้อมอย่างสมบูรณ์ (Triam phrom yaang somboon)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "จ๊าบ",
+        "pronunciation": "Jaab",
+        "meaning_en": "Cool / Groovy (Retro)",
+        "when_to_use_1_sentence": "An older slang term that's occasionally used for a retro-cool vibe.",
+        "formality": "informal",
+        "polite_alternative_optional": "ยอดเยี่ยม (Yord yiam)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "เฟี้ยวฟ้าวมะพร้าวแก้ว",
+        "pronunciation": "Fiao Faao Ma-prao Kaew",
+        "meaning_en": "Extremely stylish and cool",
+        "when_to_use_1_sentence": "A playful, rhyming way to say someone looks exceptionally cool.",
+        "formality": "informal",
+        "polite_alternative_optional": "ดูดีมีสไตล์มาก (Du dee mee style maak)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "จริงดิ",
+        "pronunciation": "Jing Di?",
+        "meaning_en": "Seriously? / For real?",
+        "when_to_use_1_sentence": "The most common way to ask 'really?' in a shocked or curious tone.",
+        "formality": "informal",
+        "polite_alternative_optional": "จริงหรือครับ? (Jing reu krap?)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "ไม่ไหวจะเคลียร์",
+        "pronunciation": "Mai Wai Ja Clear",
+        "meaning_en": "Too much to handle / I can't even",
+        "when_to_use_1_sentence": "Used when a situation is so messy or weird you don't know how to fix it.",
+        "formality": "informal",
+        "polite_alternative_optional": "เกินความสามารถจะแก้ไข (Gern kwaam saamart ja gae kai)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "เริ่ด",
+        "pronunciation": "Rerd",
+        "meaning_en": "Fabulous / Excellent",
+        "when_to_use_1_sentence": "A word often used to praise someone's fashion or a great performance.",
+        "formality": "informal",
+        "polite_alternative_optional": "เลอเลิศ (Loe rerd)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "นอยด์",
+        "pronunciation": "Noid",
+        "meaning_en": "Paranoid / Worried / Sad",
+        "when_to_use_1_sentence": "Borrowed from English, used when feeling anxious or slightly depressed.",
+        "formality": "informal",
+        "polite_alternative_optional": "กังวลใจ (Gang won jai)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "ต๊าซ",
+        "pronunciation": "Taas",
+        "meaning_en": "Wow! / Impactful / Stunning",
+        "when_to_use_1_sentence": "A modern onomatopoeic slang for something that hits you with its excellence.",
+        "formality": "informal",
+        "polite_alternative_optional": "น่าประทับใจมาก (Naa prathap jai maak)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    },
+    {
+        "phrase_th": "แกง",
+        "pronunciation": "Gaeng",
+        "meaning_en": "To prank / To troll",
+        "when_to_use_1_sentence": "Strictly informal. Means someone essentially tricked or teased you in a lighthearted way.",
+        "formality": "informal",
+        "polite_alternative_optional": "หลอกเล่น (Lok len)",
+        "source_url": "https://pickup-thai.com/thai-slang/"
+    }
+]
