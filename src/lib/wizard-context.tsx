@@ -99,28 +99,26 @@ const WizardContext = createContext<WizardContextType | null>(null);
 
 const STORAGE_KEY = "tenee_wizard_state";
 
-export function WizardProvider({ children }: { children: ReactNode }) {
-    const [state, dispatch] = useReducer(wizardReducer, initialState);
-
-    // Load from sessionStorage on mount
-    useEffect(() => {
-        try {
-            const saved = sessionStorage.getItem(STORAGE_KEY);
-            if (saved) {
-                const parsed = JSON.parse(saved);
-                dispatch({ type: "LOAD", state: { ...initialState, ...parsed } });
-            }
-        } catch {
-            // Ignore parse errors
+function getInitialState(): WizardState {
+    if (typeof window === "undefined") return initialState;
+    try {
+        const saved = sessionStorage.getItem(STORAGE_KEY);
+        if (saved) {
+            return { ...initialState, ...JSON.parse(saved) };
         }
-    }, []);
+    } catch {
+        // Ignore parse errors
+    }
+    return initialState;
+}
+
+export function WizardProvider({ children }: { children: ReactNode }) {
+    const [state, dispatch] = useReducer(wizardReducer, undefined, getInitialState);
 
     // Auto-save to sessionStorage on every change
     useEffect(() => {
         try {
-            // Don't save passport in session storage - just save masked version
-            const toSave = { ...state };
-            sessionStorage.setItem(STORAGE_KEY, JSON.stringify(toSave));
+            sessionStorage.setItem(STORAGE_KEY, JSON.stringify(state));
         } catch {
             // Ignore storage errors
         }

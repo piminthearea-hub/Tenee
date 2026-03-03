@@ -268,26 +268,69 @@ export async function generatePacketHtml(state: WizardState): Promise<string> {
 }
 
 export function downloadHtmlAsPdf(html: string, filename: string) {
-  const printWindow = window.open("", "_blank");
-  if (!printWindow) {
-    // Fallback: download as HTML
-    const blob = new Blob([html], { type: "text/html" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = filename.replace(".pdf", ".html");
-    a.click();
-    URL.revokeObjectURL(url);
-    return;
+  try {
+    const printWindow = window.open("", "_blank");
+    if (printWindow) {
+      printWindow.document.write(html);
+      printWindow.document.close();
+
+      // Wait for fonts to load then trigger print
+      printWindow.onload = () => {
+        setTimeout(() => {
+          try {
+            printWindow.print();
+          } catch {
+            // Print failed silently
+          }
+        }, 500);
+      };
+      return;
+    }
+  } catch {
+    // window.open blocked or errored
   }
 
-  printWindow.document.write(html);
-  printWindow.document.close();
+  // Fallback: use a hidden iframe to trigger print without navigating away
+  try {
+    const iframe = document.createElement("iframe");
+    iframe.style.position = "fixed";
+    iframe.style.top = "-10000px";
+    iframe.style.left = "-10000px";
+    iframe.style.width = "0";
+    iframe.style.height = "0";
+    iframe.style.border = "none";
+    document.body.appendChild(iframe);
 
-  // Wait for fonts to load then trigger print
-  printWindow.onload = () => {
-    setTimeout(() => {
-      printWindow.print();
-    }, 500);
-  };
+    const iframeDoc = iframe.contentDocument || iframe.contentWindow?.document;
+    if (iframeDoc) {
+      iframeDoc.open();
+      iframeDoc.write(html);
+      iframeDoc.close();
+
+      setTimeout(() => {
+        try {
+          iframe.contentWindow?.print();
+        } catch {
+          // Print from iframe failed, try blob download as last resort
+          const blob = new Blob([html], { type: "text/html" });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = filename.replace(".pdf", ".html");
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          URL.revokeObjectURL(url);
+        }
+        // Clean up iframe after a delay
+        setTimeout(() => {
+          try { document.body.removeChild(iframe); } catch { /* ignore */ }
+        }, 2000);
+      }, 500);
+    } else {
+      document.body.removeChild(iframe);
+    }
+  } catch {
+    // All fallbacks failed — silently fail rather than breaking the wizard
+  }
 }

@@ -26,22 +26,28 @@ function WizardContent() {
     const handleGenerate = async () => {
         setIsGenerating(true);
 
-        // Small delay for UX
-        await new Promise((r) => setTimeout(r, 600));
+        try {
+            // Small delay for UX
+            await new Promise((r) => setTimeout(r, 600));
 
-        // Generate Checklist PDF
-        const checklistHtml = await generateChecklistHtml(state);
-        downloadHtmlAsPdf(checklistHtml, "tenee-checklist.pdf");
+            // Generate Checklist PDF
+            const checklistHtml = await generateChecklistHtml(state);
+            downloadHtmlAsPdf(checklistHtml, "tenee-checklist.pdf");
 
-        // Small delay between downloads
-        await new Promise((r) => setTimeout(r, 1000));
+            // Small delay between downloads
+            await new Promise((r) => setTimeout(r, 1000));
 
-        // Generate Packet PDF
-        const packetHtml = await generatePacketHtml(state);
-        downloadHtmlAsPdf(packetHtml, "tenee-packet.pdf");
+            // Generate Packet PDF
+            const packetHtml = await generatePacketHtml(state);
+            downloadHtmlAsPdf(packetHtml, "tenee-packet.pdf");
 
-        setIsGenerating(false);
-        setShowShareModal(true);
+            setShowShareModal(true);
+        } catch (err) {
+            console.error("Generation error:", err);
+            alert("Something went wrong generating the PDFs. Please try again.");
+        } finally {
+            setIsGenerating(false);
+        }
     };
 
     const handleCreateAnother = () => {
