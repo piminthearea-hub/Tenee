@@ -70,6 +70,8 @@ body {
   transition: all 0.3s ease;
 }
 
+.icon { display: inline-flex; align-items: center; margin-right: 0.25rem; }
+
 .glass-card:hover {
   background: var(--color-bg-glass-strong);
   border-color: var(--color-border-glass-strong);

@@ -2,6 +2,7 @@
 
 import { useWizard, maskPassport, TASK_LABELS, daysUntil } from "@/lib/wizard-context";
 import { getChecklistSections } from "@/lib/checklist-data";
+import Icon from "@/components/Icon";
 import { useState } from "react";
 import CommonMistakes from "@/components/CommonMistakes";
 import ScamWarning from "@/components/ScamWarning";
@@ -67,7 +68,7 @@ export default function StepReview({ onGenerate, isGenerating }: StepReviewProps
                     style={{ marginBottom: "1.25rem" }}
                 >
                     <div className={daysToExpiry <= 3 ? "urgency-title" : "caution-title"}>
-                        {daysToExpiry <= 3 ? "🚨" : "⏰"} Strict deadline:{" "}
+                        <Icon name="exclamation" className="inline-block mr-1" />{daysToExpiry <= 3 ? "" : ""} Strict deadline:{" "}
                         {daysToExpiry <= 0
                             ? "Expired or today!"
                             : `${daysToExpiry} day${daysToExpiry === 1 ? "" : "s"} remaining`}
@@ -86,7 +87,7 @@ export default function StepReview({ onGenerate, isGenerating }: StepReviewProps
             {/* Hotel stay → TM30 warning */}
             {showHotelWarning && (
                 <div className="caution-yellow" style={{ marginBottom: "1.25rem" }}>
-                    <div className="caution-title">📋 TM30 update may be needed</div>
+                    <div className="caution-title"><Icon name="clipboard" className="inline-block mr-1" /> TM30 update may be needed</div>
                     <div style={{ fontSize: "0.88rem", lineHeight: 1.5 }}>
                         You indicated a recent hotel stay. Some offices may ask your landlord/host to
                         update TM30 again. Verify with your local office.
@@ -220,7 +221,7 @@ export default function StepReview({ onGenerate, isGenerating }: StepReviewProps
                         <div style={{ display: "flex", justifyContent: "space-between" }}>
                             <span style={{ color: "#94a3b8" }}>Recent Hotel Stay</span>
                             <span style={{ fontWeight: 600, color: "#f59e0b" }}>
-                                {state.recentHotelStay === "yes" ? "✅ Yes" : "🤔 Not sure"}
+                                {state.recentHotelStay === "yes" ? (<span className="inline-flex items-center"><Icon name="check" className="inline-block mr-1" /> Yes</span>) : (<span className="inline-flex items-center"><Icon name="question" className="inline-block mr-1" /> Not sure</span>)}
                             </span>
                         </div>
                     )}
@@ -253,7 +254,7 @@ export default function StepReview({ onGenerate, isGenerating }: StepReviewProps
                             paddingBottom: "0.75rem",
                         }}
                     >
-                        ✅ Checklist Preview ({sections.reduce((a, s) => a + s.items.length, 0)} items)
+                        <Icon name="check" className="inline-block mr-1" /> Checklist Preview ({sections.reduce((a, s) => a + s.items.length, 0)} items)
                     </h3>
 
                     {/* Tier Legend */}

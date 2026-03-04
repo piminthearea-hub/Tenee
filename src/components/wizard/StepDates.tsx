@@ -1,6 +1,7 @@
 "use client";
 
 import { useWizard, daysUntil, HotelStay } from "@/lib/wizard-context";
+import Icon from "@/components/Icon";
 
 export default function StepDates() {
     const { state, setField, nextStep, prevStep } = useWizard();
@@ -159,7 +160,7 @@ export default function StepDates() {
                     style={{ marginBottom: "1.25rem" }}
                 >
                     <div className={daysToExpiry <= 7 ? "urgency-title" : "caution-title"}>
-                        {daysToExpiry <= 7 ? "🚨" : "⏰"} Strict deadline: Permission expires{" "}
+                        <Icon name="exclamation" className="inline-block mr-1" />{daysToExpiry <= 7 ? "" : ""} Strict deadline: Permission expires{" "}
                         {daysToExpiry <= 0
                             ? "TODAY or has passed!"
                             : `in ${daysToExpiry} day${daysToExpiry === 1 ? "" : "s"}`}
@@ -179,7 +180,7 @@ export default function StepDates() {
             {show90Day && state.ninetyDayDueDate && (
                 <div className="caution-yellow" style={{ marginBottom: "1.25rem" }}>
                     <div className="caution-title">
-                        📅 90-Day Reporting Timeline
+                        <Icon name="calendar" className="inline-block mr-1" /> 90-Day Reporting Timeline
                     </div>
                     <div className="timeline-bar">
                         <div className="seg seg-early">Earliest (15 days before)</div>
@@ -201,7 +202,7 @@ export default function StepDates() {
             {onlineWarningRed && (
                 <div className="urgency-red" style={{ marginBottom: "1.25rem" }}>
                     <div className="urgency-title">
-                        🚨 Backup plan: Deadline within 3 days
+                        <Icon name="exclamation" className="inline-block mr-1" /> Backup plan: Deadline within 3 days
                     </div>
                     <div style={{ lineHeight: 1.6, fontSize: "0.92rem" }}>
                         Immigration online systems may be offline or reject valid

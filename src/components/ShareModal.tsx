@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Icon from "@/components/Icon";
 
 interface ShareModalProps {
     isOpen: boolean;
@@ -102,7 +103,7 @@ export default function ShareModal({ isOpen, onClose, onCreateAnother }: ShareMo
                             style={{ fontSize: "0.9rem", padding: "0.75rem 1.25rem", minHeight: "44px" }}
                             id="share-copy-link"
                         >
-                            {copied === "link" ? "✅ Copied!" : "📋 Copy Link"}
+                            {copied === "link" ? <><Icon name="check" /> Copied!</> : <><Icon name="clipboard" /> Copy Link</>}
                         </button>
 
                         <button
@@ -111,7 +112,7 @@ export default function ShareModal({ isOpen, onClose, onCreateAnother }: ShareMo
                             style={{ fontSize: "0.9rem", padding: "0.75rem 1.25rem", minHeight: "44px" }}
                             id="share-send-friend"
                         >
-                            {copied === "message" ? "✅ Copied!" : "💬 Send to a Friend"}
+                            {copied === "message" ? <><Icon name="check" /> Copied!</> : <><Icon name="chat" /> Send to a Friend</>}
                         </button>
 
                         <button
@@ -120,7 +121,7 @@ export default function ShareModal({ isOpen, onClose, onCreateAnother }: ShareMo
                             style={{ fontSize: "0.9rem", padding: "0.75rem 1.25rem", minHeight: "44px" }}
                             id="share-copy-message"
                         >
-                            {copied === "full" ? "✅ Copied!" : "📝 Copy Share Message"}
+                            {copied === "full" ? <><Icon name="check" /> Copied!</> : <><Icon name="document" /> Copy Share Message</>}
                         </button>
                     </div>
                 </div>
