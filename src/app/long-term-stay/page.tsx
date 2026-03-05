@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Icon from "@/components/Icon";
 import "./long-term-stay.css";
 
 export const metadata: Metadata = {
@@ -94,8 +95,9 @@ export default function LongTermStayPage() {
 
                     {/* Top Disclaimer */}
                     <div className="lts-disclaimer">
-                        <p>
-                            ⚠️ This page provides general informational guidance based on publicly
+                        <p className="flex gap-2">
+                            <span className="flex items-center justify-center shrink-0"><Icon name="warning" className="w-5 h-5 text-current" ariaLabel="Warning" /></span>{" "}
+                            This page provides general informational guidance based on publicly
                             available official sources. Immigration decisions are made solely at the
                             discretion of Thai authorities. Requirements may change without notice.
                             Applicants must verify eligibility directly through official government
@@ -445,8 +447,9 @@ export default function LongTermStayPage() {
                         <li>Driving motor vehicles (with limited exceptions)</li>
                     </ul>
                     <div className="lts-disclaimer" style={{ maxWidth: "100%", marginTop: "1rem" }}>
-                        <p>
-                            ℹ️ These examples are illustrative only and do not represent a complete or
+                        <p className="flex gap-2">
+                            <span className="flex items-center justify-center shrink-0"><Icon name="info" className="w-5 h-5 text-current" ariaLabel="Info" /></span>{" "}
+                            These examples are illustrative only and do not represent a complete or
                             current legal list. Occupational eligibility must be verified through official
                             government sources.
                         </p>

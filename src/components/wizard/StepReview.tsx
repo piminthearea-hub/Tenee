@@ -173,8 +173,12 @@ export default function StepReview({ onGenerate, isGenerating }: StepReviewProps
                 <div style={{ display: "grid", gap: "0.75rem", fontSize: "0.95rem" }}>
                     <div style={{ display: "flex", justifyContent: "space-between" }}>
                         <span style={{ color: "#94a3b8" }}>Mode</span>
-                        <span style={{ fontWeight: 600 }}>
-                            {state.mode === "caregiver" ? "🤝 Caregiver" : "🙋 Self"}
+                        <span style={{ fontWeight: 600, display: "flex", alignItems: "center", gap: "0.25rem" }}>
+                            {state.mode === "caregiver" ? (
+                                <><Icon name="users" className="icon text-current w-4 h-4" ariaLabel="Caregiver" /> Caregiver</>
+                            ) : (
+                                <><Icon name="user" className="icon text-current w-4 h-4" ariaLabel="Self" /> Self</>
+                            )}
                         </span>
                     </div>
                     <div style={{ display: "flex", justifyContent: "space-between" }}>

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { PrintModeProvider } from "@/components/PrintModeContext";
 import PrintModeToggle from "@/components/PrintModeToggle";
 import ConsentModal from "@/components/ConsentModal";
+import Icon from "@/components/Icon";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -66,7 +67,9 @@ export default function RootLayout({
               fontWeight: 600,
             }}
           >
-            ⚠️ Privacy: Do not enter passport numbers, visa stamp images, bank statements, or other sensitive personal data.
+            <div className="flex justify-center items-center gap-2">
+              <Icon name="warning" className="w-5 h-5 text-current" ariaLabel="Warning" /> Privacy: Do not enter passport numbers, visa stamp images, bank statements, or other sensitive personal data.
+            </div>
           </div>
 
           {/* Global disclaimer bar */}
@@ -215,8 +218,8 @@ export default function RootLayout({
               Not a law firm. Not legal advice. Not representation. Not guaranteed
               approval. Requirements vary by office and can change. Thailand only.
             </p>
-            <p style={{ marginTop: "0.5rem", color: "#2dd4bf", fontWeight: 600 }}>
-              🛡️ Privacy-by-design. Data minimization. Informational use only.
+            <p className="flex justify-center items-center gap-2" style={{ marginTop: "0.5rem", color: "#2dd4bf", fontWeight: 600 }}>
+              <Icon name="shieldCheck" className="w-4 h-4 text-current" ariaLabel="Privacy protected" /> Privacy-by-design. Data minimization. Informational use only.
             </p>
             <div style={{ marginTop: "1rem", display: "flex", justifyContent: "center", gap: "1.5rem" }}>
               <Link href="/terms" style={{ color: "#64748b", textDecoration: "none" }}>
@@ -232,6 +235,6 @@ export default function RootLayout({
           </footer>
         </PrintModeProvider>
       </body>
-    </html>
+    </html >
   );
 }

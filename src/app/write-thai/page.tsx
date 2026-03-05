@@ -3,6 +3,7 @@
 import { useState, useMemo, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import PrintPageButton from "@/components/PrintPageButton";
+import Icon from "@/components/Icon";
 import {
     RecipientType,
     Tone,
@@ -166,8 +167,8 @@ function WriteThaiForm() {
     return (
         <div style={{ maxWidth: "700px", margin: "0 auto", padding: "2rem 1.5rem 4rem" }}>
             {/* Banner */}
-            <div className="disclaimer-banner" style={{ marginBottom: "2rem", textAlign: "center" }}>
-                🇹🇭 This is a communication template only. Not legal advice or representation. Thailand-only.
+            <div className="disclaimer-banner flex items-center justify-center gap-2" style={{ marginBottom: "2rem", textAlign: "center" }}>
+                <Icon name="globe" className="w-5 h-5 text-current" ariaLabel="Thai" /> This is a communication template only. Not legal advice or representation. Thailand-only.
             </div>
 
             {/* Title */}
@@ -178,8 +179,8 @@ function WriteThaiForm() {
                 <p style={{ color: "#94a3b8", fontSize: "1.05rem", marginBottom: "0.5rem" }}>
                     Generate polite Thai messages for landlords, banks, offices, and more.
                 </p>
-                <div style={{ padding: "0.5rem", background: "rgba(245, 197, 66, 0.1)", border: "1px solid rgba(245, 197, 66, 0.3)", borderRadius: "8px", display: "inline-block", color: "#f5c542", fontSize: "0.9rem", fontWeight: 600 }}>
-                    ⚠️ Do not include sensitive personal data (e.g. full passport number, bank account).
+                <div className="flex items-center gap-2" style={{ padding: "0.5rem", background: "rgba(245, 197, 66, 0.1)", border: "1px solid rgba(245, 197, 66, 0.3)", borderRadius: "8px", display: "inline-block", color: "#f5c542", fontSize: "0.9rem", fontWeight: 600 }}>
+                    <Icon name="warning" className="w-4 h-4 text-current" ariaLabel="Warning" /> Do not include sensitive personal data (e.g. full passport number, bank account).
                 </div>
 
                 <div style={{ marginTop: "1.5rem" }}>
@@ -197,7 +198,7 @@ function WriteThaiForm() {
                                 fontWeight: 600
                             }}
                         >
-                            🗑️ Clear my data
+                            <span className="flex items-center gap-2 justify-center"><Icon name="trash" className="w-4 h-4" ariaLabel="Clear" /> Clear my data</span>
                         </button>
                     ) : (
                         <div style={{ display: "inline-flex", flexDirection: "column", gap: "0.5rem", alignItems: "center" }}>
@@ -533,8 +534,8 @@ function WriteThaiForm() {
                             <label className="label">Tone</label>
                             <div style={{ display: "flex", gap: "0.75rem" }}>
                                 {([
-                                    { value: "normal" as Tone, label: "Normal Polite", icon: "🙂" },
-                                    { value: "very_polite" as Tone, label: "Very Polite", icon: "🙏" },
+                                    { value: "normal" as Tone, label: "Normal Polite", icon: <Icon name="happy" ariaLabel="Normal" /> },
+                                    { value: "very_polite" as Tone, label: "Very Polite", icon: <Icon name="thumbUp" ariaLabel="Very Polite" /> },
                                 ]).map((t) => (
                                     <button
                                         key={t.value}
@@ -560,7 +561,7 @@ function WriteThaiForm() {
                                             transition: "all 0.2s ease",
                                         }}
                                     >
-                                        {t.icon} {t.label}
+                                        <div className="flex items-center justify-center gap-2">{t.icon} {t.label}</div>
                                     </button>
                                 ))}
                             </div>
@@ -574,7 +575,7 @@ function WriteThaiForm() {
                                 onClick={() => setHasGenerated(true)}
                                 disabled={!applicantName}
                             >
-                                {applicantName ? "✨ Generate Message" : "Please enter your name first"}
+                                {applicantName ? <span className="flex items-center justify-center gap-2"><Icon name="sparkles" className="w-5 h-5" ariaLabel="Generate" /> Generate Message</span> : "Please enter your name first"}
                             </button>
                         </div>
                     </div>
@@ -602,8 +603,8 @@ function WriteThaiForm() {
                                 marginBottom: "1rem",
                             }}
                         >
-                            <h3 style={{ fontSize: "1.1rem", fontWeight: 700 }}>
-                                🇹🇭 Thai Message
+                            <h3 className="flex items-center gap-2" style={{ fontSize: "1.1rem", fontWeight: 700 }}>
+                                <Icon name="globe" className="w-5 h-5" ariaLabel="Thai" /> Thai Message
                             </h3>
                             <button
                                 className="btn-secondary"
@@ -611,7 +612,7 @@ function WriteThaiForm() {
                                 onClick={() => copyToClipboard(result.thai, "thai")}
                                 id="copy-thai"
                             >
-                                {copied === "thai" ? "✅ Copied!" : "📋 Copy Thai"}
+                                {copied === "thai" ? <span className="flex items-center gap-1"><Icon name="check" className="w-4 h-4 text-green-500" ariaLabel="Copied" /> Copied!</span> : <span className="flex items-center gap-1"><Icon name="clipboard" className="w-4 h-4" ariaLabel="Copy" /> Copy Thai</span>}
                             </button>
                         </div>
                         <div
@@ -645,8 +646,8 @@ function WriteThaiForm() {
                                 marginBottom: "1rem",
                             }}
                         >
-                            <h3 style={{ fontSize: "1.1rem", fontWeight: 700 }}>
-                                🇺🇸 English Translation
+                            <h3 className="flex items-center gap-2" style={{ fontSize: "1.1rem", fontWeight: 700 }}>
+                                <Icon name="globe" className="w-5 h-5" ariaLabel="English" /> English Translation
                             </h3>
                             <button
                                 className="btn-secondary"
@@ -654,7 +655,7 @@ function WriteThaiForm() {
                                 onClick={() => copyToClipboard(result.english, "english")}
                                 id="copy-english"
                             >
-                                {copied === "english" ? "✅ Copied!" : "📋 Copy English"}
+                                {copied === "english" ? <span className="flex items-center gap-1"><Icon name="check" className="w-4 h-4 text-green-500" ariaLabel="Copied" /> Copied!</span> : <span className="flex items-center gap-1"><Icon name="clipboard" className="w-4 h-4" ariaLabel="Copy" /> Copy English</span>}
                             </button>
                         </div>
                         <div
@@ -679,7 +680,7 @@ function WriteThaiForm() {
                         style={{ width: "100%" }}
                         id="download-thai-pdf"
                     >
-                        📄 Download as PDF
+                        <span className="flex items-center justify-center gap-2"><Icon name="document" className="w-5 h-5" ariaLabel="Download" /> Download as PDF</span>
                     </button>
                 </div>
             )}

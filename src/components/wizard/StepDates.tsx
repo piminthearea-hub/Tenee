@@ -1,5 +1,6 @@
 "use client";
 
+import React, { useState } from "react";
 import { useWizard, daysUntil, HotelStay } from "@/lib/wizard-context";
 import Icon from "@/components/Icon";
 
@@ -163,7 +164,7 @@ export default function StepDates() {
                         <Icon name="exclamation" className="inline-block mr-1" />{daysToExpiry <= 7 ? "" : ""} Strict deadline: Permission expires{" "}
                         {daysToExpiry <= 0
                             ? "TODAY or has passed!"
-                            : `in ${daysToExpiry} day${daysToExpiry === 1 ? "" : "s"}`}
+                            : `in ${daysToExpiry} day${daysToExpiry === 1 ? "" : "s"} `}
                     </div>
                     <div style={{ lineHeight: 1.6, fontSize: "0.9rem" }}>
                         {daysToExpiry <= 0
@@ -216,8 +217,8 @@ export default function StepDates() {
             )}
             {onlineWarningYellow && (
                 <div className="caution-yellow" style={{ marginBottom: "1.25rem" }}>
-                    <div className="caution-title">
-                        ⚠️ Online system note
+                    <div className="caution-title flex items-center gap-2">
+                        <Icon name="warning" className="w-5 h-5 text-current" ariaLabel="Warning" /> Online system note
                     </div>
                     <div style={{ lineHeight: 1.6, fontSize: "0.9rem" }}>
                         Immigration online systems may be offline or reject valid submissions.
@@ -232,8 +233,8 @@ export default function StepDates() {
             {/* === EDGE CASE #2: HOTEL STAY → TM30 OVERWRITE === */}
             {showHotelQuestion && (
                 <div className="hotel-card" style={{ marginBottom: "1.5rem" }}>
-                    <div style={{ fontWeight: 700, fontSize: "1rem", marginBottom: "0.25rem" }}>
-                        🏨 Recent hotel stay?
+                    <div style={{ fontWeight: 700, fontSize: "1rem", marginBottom: "0.25rem", display: "flex", alignItems: "center", gap: "0.5rem" }}>
+                        <Icon name="office" className="w-5 h-5 text-current" ariaLabel="Hotel" /> Recent hotel stay?
                     </div>
                     <div style={{ color: "#94a3b8", fontSize: "0.88rem", lineHeight: 1.5 }}>
                         Have you stayed at a hotel in Thailand recently (past 14 days)?
@@ -246,7 +247,13 @@ export default function StepDates() {
                                 className={state.recentHotelStay === v ? "selected" : ""}
                                 onClick={() => setField("recentHotelStay", v)}
                             >
-                                {v === "yes" ? "✅ Yes" : v === "no" ? "❌ No" : "🤔 Not sure"}
+                                {v === "yes" ? (
+                                    <span className="flex items-center gap-1 justify-center"><Icon name="check" className="w-4 h-4 text-green-500" ariaLabel="Yes" /> Yes</span>
+                                ) : v === "no" ? (
+                                    <span className="flex items-center gap-1 justify-center"><Icon name="x" className="w-4 h-4 text-red-500" ariaLabel="No" /> No</span>
+                                ) : (
+                                    <span className="flex items-center gap-1 justify-center"><Icon name="question" className="w-4 h-4 text-yellow-500" ariaLabel="Not sure" /> Not sure</span>
+                                )}
                             </button>
                         ))}
                     </div>

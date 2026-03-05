@@ -3,6 +3,7 @@
 import { useWizard, WizardProvider } from "@/lib/wizard-context";
 import { getChecklistSections } from "@/lib/checklist-data";
 import PrintPageButton from "@/components/PrintPageButton";
+import Icon from "@/components/Icon";
 
 function OfficePlanContent() {
     const { state } = useWizard();
@@ -127,7 +128,7 @@ function OfficePlanContent() {
                     {(show90DayNote || showHotelNote) && (
                         <section style={{ border: "2px solid #f59e0b", padding: "1.5rem", borderRadius: "8px", background: "#fffbeb" }}>
                             <h2 style={{ fontSize: "1.3rem", fontWeight: 700, color: "#d97706", marginBottom: "1rem", display: "flex", alignItems: "center", gap: "0.5rem" }}>
-                                ⚠️ Important Notes
+                                <Icon name="warning" className="w-5 h-5 text-current" ariaLabel="Warning" /> Important Notes
                             </h2>
                             <ul style={{ paddingLeft: "1.5rem", fontSize: "1.1rem", lineHeight: 1.5, color: "#92400e" }}>
                                 {show90DayNote && (

@@ -2,13 +2,14 @@
 
 import { useWizard, TaskType, TASK_LABELS, FinancialProofType } from "@/lib/wizard-context";
 import { TASK_DESCRIPTIONS } from "@/lib/checklist-data";
+import Icon from "@/components/Icon";
 
-const TASK_ICONS: Record<TaskType, string> = {
-    retirement: "🏖️",
-    visa_extension: "📑",
-    ninety_day: "📆",
-    tm30: "🏠",
-    reentry: "✈️",
+const TASK_ICONS: Record<TaskType, React.ReactNode> = {
+    retirement: <Icon name="sun" ariaLabel="Retirement" />,
+    visa_extension: <Icon name="documentReport" ariaLabel="Visa Extension" />,
+    ninety_day: <Icon name="calendar" ariaLabel="90-Day Report" />,
+    tm30: <Icon name="home" ariaLabel="TM30" />,
+    reentry: <Icon name="plane" ariaLabel="Re-entry Permit" />,
 };
 
 const TASK_COLORS: Record<TaskType, string> = {
@@ -89,19 +90,25 @@ export default function StepTaskType() {
 
             {/* TM30 Guardrail */}
             {state.taskType === "tm30" && (
-                <div className="info-box animate-fade-in" style={{ marginBottom: "1.5rem" }}>
-                    <strong>ℹ️ Note:</strong> This checklist helps you request/obtain the TM30
-                    receipt/proof from your landlord, host, or hotel. The TM30 filing itself is
-                    the responsibility of the landlord/host.
+                <div className="info-box animate-fade-in flex items-start gap-2" style={{ marginBottom: "1.5rem" }}>
+                    <div className="mt-1"><Icon name="info" className="w-5 h-5 text-blue-500" ariaLabel="Note" /></div>
+                    <div>
+                        <strong>Note:</strong> This checklist helps you request/obtain the TM30
+                        receipt/proof from your landlord, host, or hotel. The TM30 filing itself is
+                        the responsibility of the landlord/host.
+                    </div>
                 </div>
             )}
 
             {/* 90-Day Help Card */}
             {state.taskType === "ninety_day" && (
-                <div className="info-box animate-fade-in" style={{ marginBottom: "1.5rem" }}>
-                    <strong>💡 Help:</strong> If your online 90-day reporting status is
-                    pending or rejected: requirements vary; you may need to retry or visit in
-                    person. Verify with your local office.
+                <div className="info-box animate-fade-in flex items-start gap-2" style={{ marginBottom: "1.5rem" }}>
+                    <div className="mt-1"><Icon name="lightBulb" className="w-5 h-5 text-yellow-500" ariaLabel="Help" /></div>
+                    <div>
+                        <strong>Help:</strong> If your online 90-day reporting status is
+                        pending or rejected: requirements vary; you may need to retry or visit in
+                        person. Verify with your local office.
+                    </div>
                 </div>
             )}
 
@@ -113,11 +120,11 @@ export default function StepTaskType() {
                     </h3>
                     <div style={{ display: "grid", gap: "0.5rem" }}>
                         {([
-                            { value: "deposit", label: "Bank Deposit (≥ 800,000 THB)", icon: "🏦" },
-                            { value: "monthly_income", label: "Monthly Income (≥ 65,000 THB/month)", icon: "💰" },
-                            { value: "combination", label: "Combination (Deposit + Income)", icon: "➕" },
-                            { value: "not_sure", label: "Not sure yet", icon: "❓" },
-                        ] as { value: FinancialProofType; label: string; icon: string }[]).map((opt) => (
+                            { value: "deposit", label: "Bank Deposit (≥ 800,000 THB)", icon: <Icon name="library" ariaLabel="Bank" /> },
+                            { value: "monthly_income", label: "Monthly Income (≥ 65,000 THB/month)", icon: <Icon name="cash" ariaLabel="Income" /> },
+                            { value: "combination", label: "Combination (Deposit + Income)", icon: <Icon name="plusCircle" ariaLabel="Combination" /> },
+                            { value: "not_sure", label: "Not sure yet", icon: <Icon name="question" ariaLabel="Not sure" /> },
+                        ] as { value: FinancialProofType; label: string; icon: React.ReactNode }[]).map((opt) => (
                             <button
                                 key={opt.value}
                                 type="button"
@@ -149,8 +156,8 @@ export default function StepTaskType() {
                             </button>
                         ))}
                     </div>
-                    <div className="disclaimer-banner" style={{ marginTop: "0.75rem", fontSize: "0.8rem" }}>
-                        ⚠️ Banks/offices may request specific formats or time-held evidence; verify locally.
+                    <div className="disclaimer-banner flex items-center gap-2" style={{ marginTop: "0.75rem", fontSize: "0.8rem" }}>
+                        <Icon name="warning" className="w-4 h-4 text-yellow-500" ariaLabel="Warning" /> Banks/offices may request specific formats or time-held evidence; verify locally.
                     </div>
                 </div>
             )}

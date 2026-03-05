@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { useRouter, usePathname } from "next/navigation";
+import Icon from "@/components/Icon";
 
 export default function ConsentModal() {
     const [isVisible, setIsVisible] = useState(false);
@@ -67,7 +68,7 @@ export default function ConsentModal() {
                     alignItems: "center",
                     gap: "0.5rem"
                 }}>
-                    ⚠️ Before You Continue
+                    <Icon name="warning" className="w-8 h-8" ariaLabel="Warning" /> Before You Continue
                 </h2>
 
                 <div style={{

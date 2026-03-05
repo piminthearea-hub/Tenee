@@ -1,5 +1,6 @@
 import Link from "next/link";
 import FunFactCard from "@/components/FunFactCard";
+import Icon from "@/components/Icon";
 
 export default function Home() {
   return (
@@ -122,14 +123,14 @@ export default function Home() {
             padding: "1.5rem 2rem",
           }}
         >
-          <h3 style={{ fontSize: "1.1rem", fontWeight: 700, color: "#2dd4bf", marginBottom: "0.75rem" }}>
-            🔒 Privacy Promise
+          <h3 className="flex items-center gap-2" style={{ fontSize: "1.1rem", fontWeight: 700, color: "#2dd4bf", marginBottom: "0.75rem" }}>
+            <Icon name="lock" className="w-5 h-5" ariaLabel="Lock" /> Privacy Promise
           </h3>
           <ul style={{ margin: 0, padding: 0, listStyle: "none", display: "grid", gap: "0.5rem", fontSize: "0.95rem", color: "#cbd5e1" }}>
-            <li>✅ No login required.</li>
-            <li>⛔ Do not enter passport numbers or sensitive personal data.</li>
-            <li>🛡️ <strong>We do not sell your data.</strong></li>
-            <li>📊 We only use aggregate metrics (if enabled) to improve the tool.</li>
+            <li className="flex gap-2 items-start"><Icon name="check" className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" ariaLabel="Check" /> <span>No login required.</span></li>
+            <li className="flex gap-2 items-start"><Icon name="x" className="w-5 h-5 text-red-400 shrink-0 mt-0.5" ariaLabel="Stop" /> <span>Do not enter passport numbers or sensitive personal data.</span></li>
+            <li className="flex gap-2 items-start"><Icon name="shieldCheck" className="w-5 h-5 text-teal-400 shrink-0 mt-0.5" ariaLabel="Shield" /> <strong>We do not sell your data.</strong></li>
+            <li className="flex gap-2 items-start"><Icon name="documentReport" className="w-5 h-5 text-blue-400 shrink-0 mt-0.5" ariaLabel="Chart" /> <span>We only use aggregate metrics (if enabled) to improve the tool.</span></li>
           </ul>
         </div>
       </section>
@@ -196,19 +197,19 @@ export default function Home() {
           {[
             {
               step: "1",
-              icon: "📝",
+              icon: <Icon name="pencil" className="text-current w-10 h-10" ariaLabel="Fill out" />,
               title: "Fill Out the Wizard",
               desc: "Answer simple questions about your visa task — name, dates, office. Takes 2 minutes.",
             },
             {
               step: "2",
-              icon: "📄",
+              icon: <Icon name="document" className="text-current w-10 h-10" ariaLabel="Get packet" />,
               title: "Get Your Packet",
               desc: "Instantly generate a printable checklist + preparation packet PDF. Ready for the office.",
             },
             {
               step: "3",
-              icon: "🤝",
+              icon: <Icon name="users" className="text-current w-10 h-10" ariaLabel="Share" />,
               title: "Share & Help Others",
               desc: "Share the free tool with friends, family, or your expat community. Every packet includes a link back.",
             },
@@ -278,45 +279,45 @@ export default function Home() {
         >
           {[
             {
-              icon: "📋",
+              icon: <Icon name="clipboard" className="text-current w-8 h-8" ariaLabel="Packets" />,
               title: "Preparation Packets",
               desc: "Checklist + packet assembly guide for Retirement, Extensions, 90-Day, TM30, and Re-entry permits.",
               color: "#f5c542",
             },
             {
-              icon: "🇹🇭",
+              icon: <Icon name="globe" className="text-current w-8 h-8" ariaLabel="Thai" />,
               title: "Write in Thai",
               desc: "Generate polite Thai letters for landlords, banks, juristic offices, insurance, and immigration inquiries.",
               color: "#2dd4bf",
             },
             {
-              icon: "👨‍👩‍👧‍👦",
+              icon: <Icon name="userGroup" className="text-current w-8 h-8" ariaLabel="Caregiver" />,
               title: "Caregiver Mode",
               desc: "Helping an elder with paperwork? Caregiver mode lets you create packets on their behalf.",
               color: "#8b5cf6",
             },
             {
-              icon: "⚖️",
+              icon: <Icon name="scale" className="text-current w-8 h-8" ariaLabel="Legal" />,
               title: "Legal Toolkit",
               desc: "Organize facts and evidence for disputes. Generate timelines and polite Thai templates for clarification or documents.",
               color: "#8b5cf6",
             },
             {
-              icon: "🛫",
+              icon: <Icon name="plane" className="text-current w-8 h-8" ariaLabel="Entry Guide" />,
               title: "First-Time Entry Guide",
               desc: "High-level overview of Thailand entry requirements with official government links. Perfect for first-time visitors.",
               color: "#1B365D",
               href: "/entry-guide",
             },
             {
-              icon: "🏠",
+              icon: <Icon name="home" className="text-current w-8 h-8" ariaLabel="Long-Term Stay" />,
               title: "Long-Term Stay Overview",
               desc: "Structured overview of retirement, remote work, LTR, and investment stay categories with official sources.",
               color: "#1B365D",
               href: "/long-term-stay",
             },
             {
-              icon: "🔒",
+              icon: <Icon name="lock" className="text-current w-8 h-8" ariaLabel="Privacy" />,
               title: "Privacy First",
               desc: "No data stored without an account. Passport numbers masked. Privacy mode hides dates on PDFs.",
               color: "#3b82f6",

@@ -1,6 +1,7 @@
 "use client";
 
 import { useWizard, WizardMode } from "@/lib/wizard-context";
+import Icon from "@/components/Icon";
 
 export default function StepCaregiver() {
     const { state, setField, nextStep } = useWizard();
@@ -21,13 +22,13 @@ export default function StepCaregiver() {
                 {([
                     {
                         value: "self" as WizardMode,
-                        icon: "🙋",
+                        icon: <Icon name="user" className="icon text-current" ariaLabel="Myself" />,
                         title: "Myself",
                         desc: "I'm organizing my own paperwork",
                     },
                     {
                         value: "caregiver" as WizardMode,
-                        icon: "🤝",
+                        icon: <Icon name="users" className="icon text-current" ariaLabel="Someone I Help" />,
                         title: "Someone I Help",
                         desc: "I'm a caregiver or family member helping someone",
                         badge: "Caregiver Mode",

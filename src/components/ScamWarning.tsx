@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Icon from "@/components/Icon";
 
 export default function ScamWarning() {
     return (
@@ -14,7 +15,7 @@ export default function ScamWarning() {
             }}
         >
             <div style={{ display: "flex", gap: "0.75rem", alignItems: "flex-start" }}>
-                <span style={{ fontSize: "1.2rem" }}>⚠️</span>
+                <span className="text-red-500 w-6 h-6 flex-shrink-0" style={{ marginTop: "2px" }}><Icon name="warning" ariaLabel="Warning" /></span>
                 <div>
                     <h4 style={{ fontSize: "0.95rem", fontWeight: 800, color: "#ef4444", marginBottom: "0.25rem", textTransform: "uppercase" }}>
                         Scam warning

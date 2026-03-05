@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PrintButton from "./PrintButton";
+import Icon from "@/components/Icon";
 import "./entry-guide.css";
 
 export const metadata: Metadata = {
@@ -93,8 +94,8 @@ export default function EntryGuidePage() {
 
                     {/* Disclaimer Box */}
                     <div className="eg-disclaimer">
-                        <p>
-                            <span className="eg-disclaimer-icon">⚠️</span>{" "}
+                        <p className="flex gap-2">
+                            <span className="eg-disclaimer-icon flex items-center justify-center"><Icon name="warning" className="w-5 h-5 text-current" ariaLabel="Warning" /></span>{" "}
                             This page provides general informational guidance only. Entry requirements
                             vary by nationality and may change. Always verify with official Thai
                             government or embassy sources before travel. Tenee does not determine visa
@@ -184,8 +185,8 @@ export default function EntryGuidePage() {
                     </div>
 
                     <div className="eg-disclaimer" style={{ maxWidth: "100%" }}>
-                        <p>
-                            <span className="eg-disclaimer-icon">ℹ️</span>{" "}
+                        <p className="flex gap-2">
+                            <span className="eg-disclaimer-icon flex items-center justify-center"><Icon name="info" className="w-5 h-5 text-current" ariaLabel="Info" /></span>{" "}
                             Visa eligibility depends entirely on nationality. Please verify
                             directly with official Thai government or embassy sources.
                         </p>
@@ -241,7 +242,7 @@ export default function EntryGuidePage() {
                         paper arrival/departure card.
                     </p>
                     <div className="eg-safety-note">
-                        <span>⚠️</span>
+                        <span className="flex items-center justify-center"><Icon name="warning" className="w-5 h-5 text-current" ariaLabel="Warning" /></span>
                         <span>
                             Digital arrival requirements are subject to updates or suspension.
                             Always check the official portal <strong>24–48 hours before departure</strong>.
